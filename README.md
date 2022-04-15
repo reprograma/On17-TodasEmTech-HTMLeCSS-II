@@ -435,7 +435,8 @@ Mobile First é um método onde o foco do desenvolvimento de projetos web está 
 [Devmedia - Utilizando media queries](https://www.devmedia.com.br/utilizando-css-media-queries/27085)
 
 
-<!-- ---
+
+
 #### Referências utilizadas para a construção deste material
 * [Repositório - On13-Responsivo](https://github.com/reprograma/On3-Responsivo)
 * [Repositório - On10-Responsivo](https://github.com/reprograma/On10_TodasEmTech-S4-Responsividade )
