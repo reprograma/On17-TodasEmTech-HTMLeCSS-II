@@ -52,6 +52,32 @@ On17-TodasEmTech-HTMLeCSS-II
  ```
        code . 
  ```
+ 
+ ___________________________________________________________________________________________________________
+
+   Continue no GITBASH e digite os seguintes comandos para realizar o primeiro PullRequest:
+___________________________________________________________________________________________________________
+
+**4.7** Digite o comando: 
+ ```
+       git status
+ ```
+
+ **4.8** Digite 
+ ```
+       git add .
+ ```
+
+ **4.9** Digite o comando:
+ ```
+       git commit -m "primeiro commit"
+ ```
+
+ **4.10** Digite o comando:
+ ```
+       git push origin nome-da-sua-branch (que será o seu nome)
+ ```
+
 ---
 **Links úteis para realização do exercício :)**
 
