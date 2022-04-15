@@ -353,7 +353,7 @@ Mobile First é um método onde o foco do desenvolvimento de projetos web está 
 ## Link do Dontpad da Aula
 
 
-[link para o arquivo dontpad](http://dontpad.com/On13-html-css);
+[link para o arquivo dontpad](http://www.dontpad.com/On17-%20Resposividade);
 
 ### **Instruções para baixar o repositório**
 
