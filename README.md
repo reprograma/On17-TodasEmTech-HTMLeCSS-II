@@ -358,9 +358,10 @@ Mobile First é um método onde o foco do desenvolvimento de projetos web está 
 ### **Instruções para baixar o repositório**
 
 
-**1.** Entrar no repositório e fazer o fork do repositório On13-TodasEmTech-HTML-CSS
+**1.** Entrar no repositório e fazer o fork do repositório 
+On17-TodasEmTech-HTMLeCSS-II
 
-   Link: [Repositório](https://github.com/reprograma/On13-TodasEmTech-HTML-CSS.git)
+   Link: [Repositório](https://github.com/reprograma/On17-TodasEmTech-HTMLeCSS-II.git)
 
 **2.** Clicar no botão CODE e copiar o link.
 
