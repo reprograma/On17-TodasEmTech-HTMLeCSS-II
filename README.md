@@ -25,13 +25,13 @@ Manhã
 
 Tarde 
 
-1 [Desenvolver um formulário] 
+1 Desenvolver um formulário 
 
-2 [Estilizar a página com CSS]
+2 Estilizar a página com CSS
 
-3 [Deixar a página responsiva]
+3 Deixar a página responsiva
 
-**[Exercício para sexta](#exercicio)**
+**[Exercício para sexta] (#exercicio)**
 
 ## Revisão
 
