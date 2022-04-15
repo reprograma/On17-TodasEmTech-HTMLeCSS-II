@@ -346,7 +346,7 @@ Mobile First é um método onde o foco do desenvolvimento de projetos web está 
 ---
 **Exercício Principal** 
 
-* Transformar o layout da sua página criada na semana passada (html e css) em responsivo também para dispositivos como celulares e tablets. 
+* Criar uma nova página html ou transformar a sua página da aula de HTML e CSS da semana anterior, estilizar com propriedades CSS e deixar responsiva para dispositivos como celulares e tablets. 
 
 ### Passo a Passo
 
@@ -437,8 +437,11 @@ Mobile First é um método onde o foco do desenvolvimento de projetos web está 
 
 <!-- ---
 #### Referências utilizadas para a construção deste material
-* [Repositório - On3-Responsivo](https://github.com/reprograma/On3-Responsivo)
- -->
+* [Repositório - On13-Responsivo](https://github.com/reprograma/On3-Responsivo)
+* [Repositório - On10-Responsivo](https://github.com/reprograma/On10_TodasEmTech-S4-Responsividade )
+
+
+ 
 
 
 
