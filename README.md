@@ -316,12 +316,17 @@ _Para saber mais:_
 
 
 * Block
+
 O elemento se comporta como um bloco. Ocupando praticamente toda a largura disponível na página. Elementos de parágrafo (p) e título(h1, h2, ...) possuem esse comportamento por padrão.
 
 * Inline
+
+
 O elemento se comporta como um elemento em linha. Exemplos de elemento que se comportam assim são por exemplo as tags span e a.
 
 * Inline-block
+
+
 Semelhante ao inline, no entanto, ao definirmos inline-block em um elemento, conseguimos definir as propriedades de largura e altura para ele. Coisa que não conseguimos em um elemento com display: inline.
 
 * Flex
@@ -329,6 +334,7 @@ Semelhante ao inline, no entanto, ao definirmos inline-block em um elemento, con
 Esse display vai deixar o layout das tags filhas flexiveis.
 
 * None
+
 Ao contrários dos valores atuais, o valor none permite, informalmente dizendo, que você desative a propriedade do elemento. Quando você utiliza essa propriedade, o elemento e todos seus elementos filhos não são renderizados na página.
 
 ![tipos de display](./img/display.png)
