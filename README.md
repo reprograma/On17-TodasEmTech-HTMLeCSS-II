@@ -192,13 +192,13 @@ _Quais são:_
 
     ![grid-100](./img/grid-100.jpg)
 
-    Vamos conferir o [exemplo 😊](./exemplos/exemplo-medidas-viewport.html)
+ 
 
 * Outras unidades de medida
 
     **vmax e vmin:** [UNIDADES CSS RELATIVAS: VW, VH, VMAX, VMIN (CSS3)](https://www.youtube.com/watch?v=g__c-7M9Xzk&t=94s)
 
-    **ex e ch:** [UNIDADES CSS RELATIVAS: %, REM, EM, CH, EX (CSS3)](https://www.youtube.com/watch?v=etM0JBeFbf8)
+    
 
 ---
 
@@ -313,6 +313,23 @@ _Para saber mais:_
 
 ## Tipos de displays
 
+
+* Block
+O elemento se comporta como um bloco. Ocupando praticamente toda a largura disponível na página. Elementos de parágrafo (p) e título(h1, h2, ...) possuem esse comportamento por padrão.
+
+* Inline
+O elemento se comporta como um elemento em linha. Exemplos de elemento que se comportam assim são por exemplo as tags span e a.
+
+* Inline-block
+Semelhante ao inline, no entanto, ao definirmos inline-block em um elemento, conseguimos definir as propriedades de largura e altura para ele. Coisa que não conseguimos em um elemento com display: inline.
+
+* Flex
+
+Esse display vai deixar o layout das tags filhas flexiveis.
+
+* None
+Ao contrários dos valores atuais, o valor none permite, informalmente dizendo, que você desative a propriedade do elemento. Quando você utiliza essa propriedade, o elemento e todos seus elementos filhos não são renderizados na página.
+
 ![tipos de display](./img/display.png)
 
 
@@ -372,6 +389,7 @@ Mobile First é um método onde o foco do desenvolvimento de projetos web está 
 #### Referências utilizadas para a construção deste material
 * [Repositório - On13-Responsivo](https://github.com/reprograma/On3-Responsivo)
 * [Repositório - On10-Responsivo](https://github.com/reprograma/On10_TodasEmTech-S4-Responsividade )
+* [Tipos de display](https://www.devmedia.com.br/css3-flexbox-funcionamento-e-propriedades/29532)
 
 
  
