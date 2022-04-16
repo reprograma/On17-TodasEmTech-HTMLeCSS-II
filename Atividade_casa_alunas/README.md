@@ -40,7 +40,7 @@ On17-TodasEmTech-HTMLeCSS-II
 
    **4.4** Entre na pasta clonada:
  ```
-       cd On13-TodasEmTech-HTML-CSS
+       cd On17-TodasEmTech-HTMLeCSS-II
  ```
 
    **4.5** Crie uma branch com o seu nome:
