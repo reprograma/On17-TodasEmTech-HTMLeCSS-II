@@ -80,7 +80,7 @@ O seletor * aplica estilos a todos os elementos do documento html.
 
 - Seletor >
 
-O seletor `>` selecina nós que são filhos diretos do elemento especificado anteriormente.
+O seletor `>` seleciona nós que são filhos diretos do elemento especificado anteriormente.
 
 [![seletormaiorq](./img/seletormaiorq.png)](https://codepen.io/julianesas/pen/yLpRBGy)  
 
