@@ -340,8 +340,6 @@ Ao contrários dos valores atuais, o valor none permite, informalmente dizendo, 
 ![tipos de display](./img/display.png)
 
 
-Vamos entender como o flex funciona [aqui!](https://codepen.io/raissamartinsmenezes/pen/XWWNbrP)
-
 [Guia completo de Flexbox](https://origamid.com/projetos/flexbox-guia-completo/)
 
 Vamos praticar transformando um layout feito para desktop em responsivo 📲
