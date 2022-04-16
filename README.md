@@ -33,7 +33,8 @@ Tarde
 
 3 Deixar a página responsiva
 
-**[Exercício para sexta] (#exercicio)**
+
+---
 
 
 
