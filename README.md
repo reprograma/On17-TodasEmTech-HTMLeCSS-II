@@ -306,7 +306,7 @@ Vamos analisar sua aplicação no [exemplo 😊](./Exemplos/media_queries.html)
 _Para saber mais:_
 
 * [Media Queries MDN](https://developer.mozilla.org/pt-BR/docs/Web/Guide/CSS/CSS_Media_queries)
-* [Mobile Test Me](http://mobiletest.me/)
+
 
 ---
 
