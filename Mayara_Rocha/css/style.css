@@ -1,5 +1,5 @@
 body{
-  font-family:'Times New Roman', Times, serif;
+  font-family:Arial, Helvetica, sans-serif;
   background-image: linear-gradient(225deg, #ff6cf8 0, #ff67f4 12.5%, #f961eb 25%, #d459de 37.5%, #ad50cc 50%, #8846b8 62.5%, #653da6 75%, #453695 87.5%, #232f86 100%);
 
 
@@ -65,6 +65,7 @@ legend{
   padding:8px;
   border-radius:10px;
   outline:none;
+  background-color: rgb(106, 59, 104);
 }
 #submit{
   background:#ff8c00;
@@ -102,4 +103,10 @@ legend{
     width:30%;
     height:auto;
   }
+}
+.rodape p{
+  color: #722c95;
+  font-size: 15px;
+  text-align: center;
+  
 }
