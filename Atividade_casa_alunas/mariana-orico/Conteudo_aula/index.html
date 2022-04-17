@@ -37,11 +37,42 @@
                     </div>
                     <img src="./img/Maldivas.jpg" alt="Maldivas">
                 </div>
-            </section> 
+        </section> 
 
             <!--Terceira section-->
             
+            <section class="container-formulario">
+                <h2>Eii, vamos conversar sobre sonhos?</h2>
+                <form>
+                    <label for="nome">Qual o seu nome?</label>
+                    <input type="text" name="nome" id="nome" placeholder="Digite o seu nome aqui">
+                    
+                    <label for="email">Qual o seu e-mail?</label>
+                    <input type="email" name="e-mail" id="email" placeholder="seunome@gmail.com">
 
+                    <label for="idade">Qual a sua idade?</label>
+                    <input type="number" name="idade" id="idade" value="0" min="0" max="120">
+               
+                    <label for="comida">Qual a sua comida favorita?</label>
+                    <select name="comida" id="comida">
+                    <option value="Sorvete">Sorvete</option>
+                    <option value="Pastel">Pastel</option>
+                    <option value="Lasanha">Lasanha</option>
+                </select>
+
+                <div>
+                    <input type="checkbox" id="checked"><label for="checked">Você sabe que é maravilhosa?</label>
+                </div>
+                    
+                   <label for="mais-informacoes">Qual o seu maior sonho?</label>
+                   <textarea name="mais-informacoes" id="mais-informacoes"></textarea>
+                    
+                   <div class="botao">
+                        <input type="submit" value="Enviar formulário">
+                    </div>
+                   
+                </form>
+            </section>
            
             
         </main>
