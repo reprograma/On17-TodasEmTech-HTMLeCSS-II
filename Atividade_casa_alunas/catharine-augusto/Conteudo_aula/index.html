@@ -41,9 +41,45 @@
 
             <!--Terceira section-->
 
-            <section>
+            <section class="container-formulario">
                 <h2>Ei! Vamos conversar sobre sonhos?</h2>
+                <form>
+                    <label for="name"> Qual o seu nome?</label>
+                    <input type="text" name="name" id="nome" placeholder="Digite o seu nome aqui">
+                    
+                    <label for="email"> Qual o seu e-mail?</label>
+                    <input type="email" name="e-mail" id="email" placeholder="seuemail@dominio.com">
 
+                    <label for="idade"> Qual a sua idade?</label>
+                    <input type="number" name="idade" id="idade" min="0" max="120" value="0">
+
+                    <label for="comida">Qual sua comida favorita?</label>
+                    <select name="comida" id="comida" >
+                        <option value="batata">Batata frita</option>
+                        <option value="coxinha">Coxinha</option>
+                        <option value="hambuguer">Hamburguer</option>
+                    </select>
+
+                    <div>
+                        <input type="checkbox" id="checked" checked>
+                        <label class="checked">Você sabe que é maravilhosa?</label> 
+                    </div>                   
+
+                    
+                    <label for="mais_informações">Qual o seu maior sonho?</label>
+                    <textarea name="mais_informações" id="mais_informações"></textarea>
+                    
+                    
+                    <div class="botao"> 
+                        <input type="submit" value="Enviar formulário">
+                    </div>
+
+
+
+
+                    
+                
+                </form>
             </section>
             
 
