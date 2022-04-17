@@ -1,0 +1,179 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    background: linear-gradient(rgba(169, 153, 171, 0.2), rgba(110, 91, 108, 0.3));
+}
+
+.barra-navegacao{
+    background-color: #52435f;
+    display: flex;
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.barra-navegacao>img{
+    width: 5%;
+    margin-right: 2rem;
+    min-width: 60px;
+}
+
+.barra-navegacao>p{
+    font-size: 2.5rem;
+    color: #ffffff;
+}
+
+.container-pais, .conteudo-principal, .container-formulario{
+    padding: 4% 7%;
+}
+
+.conteudo-principal h1{
+    color: #6a3b68;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+p{
+    color: #5d555c;
+    font-size: 2rem;
+}
+
+.conteudo-principal p{
+    margin-bottom: 1.5rem;
+    text-align: justify;
+}
+
+.background-pais1{
+    background-color: #988896;
+}
+
+.container-pais{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container-pais__texto{
+    width: 50%;
+    min-width: 250px;
+}
+
+.container-pais__texto>h2{
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+.container-pais>img{
+    width: 40%;
+    min-width: 250px;
+}
+
+.row-reverse{
+    background-color: #c4b7c4;
+    flex-direction: row-reverse;
+}
+
+.container-formulario h2{
+    color: #6a3b68;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.container-formulario form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+}
+
+form label{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+form input, form select, form textarea{
+    border: 2px solid #6a3b68;
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+textarea{
+    height: 15vh;
+}
+
+.botao{
+    text-align: center;
+}
+
+.botao input{
+    background-color: #6a3b68;
+    font-size: 2rem;
+    color: #ffffff;
+    padding: 1rem;
+}
+
+.rodape{
+    background-color: #585057;
+    padding: 2rem;
+}
+
+.rodape p{
+    color: #ffffff;
+    text-align: center;
+}
+
+@media screen and (max-width: 980px){
+    .container-formulario form{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .container-pais{
+        flex-direction: column;
+    }
+
+    .container-pais__texto{
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    .container-pais{
+        justify-content: center;
+        align-items: center;
+    }
+
+    html{
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 530px){
+    .container-formulario form{
+        width: 90%;
+    }
+
+    html{
+        font-size: 7px;
+    }
+}
+
+
+
+
+
+
+
+
