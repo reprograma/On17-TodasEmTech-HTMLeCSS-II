@@ -11,6 +11,7 @@
             <img src="./img/viagem.png" alt="Imagem do globo terra" class="barra-navegacao__imagem">
             <p>Meus próximos destinos</p>
         </header>
+
         <main>
             <!--Primeira section-->
 
@@ -41,7 +42,35 @@
 
             <!--Terceira section-->
             
+            <section class="container-formulario">
+                <h2>Eiii!!! Vamos conversar sobre sonhos?</h2>
+                <form>
+                    <label for="nome">Qual é seu nome?</label>
+                    <input type="text" id="nome" placeholder="Digite o seu nome aqui">
+                    
+                    <label for="email">Qual é seu e-mail</label>
+                    <input type="email" name="e-mail" id="email">
 
+                    <label for="idade">Qual a sua idade</label>
+                    <input type="number" name="idade" id="idade" min="0" max="120">
+
+                    <label for="comida">Qual a sua comida favorita</label>
+                    <select name="comida" id="comida">
+                        <option value="Coxinha">Coxinha</option>
+                        <option value="Lasanha">Lasanha</option>
+                        <option value="Pizza">Pizza</option>
+                    </select>
+
+                    <input type="checkbox" id="checked" checked>
+                    <label for="checked">Você sabe que é maravilhosa?</label>
+
+                    <label for="mais_informacoes">Qual o seu maior sonho?</label>
+                    <textarea name="mais_informacoes" id="mais_informacoes"></textarea>
+
+                    <input type="submit" value="Enviar formulário">
+                </form>
+
+            </section>
            
             
         </main>
