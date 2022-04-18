@@ -1,3 +1,66 @@
-div ~p{
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100&display=swap');
+
+ 
+.barra-navegacao{
+    background: linear-gradient(0deg, rgba(91, 206, 250) 0%, rgba(245, 169, 184) 55%);;
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.barra-navegacao>img{
+    width: 5%;
+    margin-right: 3rem;
+    min-width: 60px;
+}
+
+.barra-navegacao>p{
+    font-size: 1.3rem;
+    color: rgb(0, 0, 0);
+}
+
+.conteudo-principal{
+    padding: 4% 7%;
+    }
+    
+.conteudo-principal h1{
+        color: rgb(91, 206, 250);
+        font-size: 3rem;
+        margin-bottom: 3rem;
+        text-align: center;
+    }
+    
+    p{
+        color: rgb(0, 0, 0);
+        font-size: 2rem;
+        text-align: justify;
+    
+    }
+    
+    .conteudo-principal p{
+        margin-bottom: 1.5rem;
+        text-align: justify;
+        
+    }
+    
+  .referencias-texto>h1{
+        font-size: 3rem;
   }
+
+    .referencias-texto>p{
+        color: rgb(0, 0, 0);
+        font-size: 1.5rem;
+        text-align: justify;
+    }
+
+    .rodape{
+            background: linear-gradient(0deg, rgba(91, 206, 250) 0%, rgba(245, 169, 184) 55%);
+            padding: 2rem;
+    }
+        
+    .rodape p{
+            color: #ffffff;
+            text-align: center;
+        }
+        
