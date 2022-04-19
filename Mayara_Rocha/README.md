@@ -1,5 +1,5 @@
 ## Formulário para Clientes 
- Na semana 3, foi proposto um projeto que fosse trabalhado o responssividade no meu site, decidi fazer um formlário simple.
+ Na semana 3 foi proposto um projeto que fosse trabalhado a responsividade no meu site, decidi fazer um formlário simples.
  ##
  ![Formulário](/Mayara_Rocha/img/formulario1.png)
 
