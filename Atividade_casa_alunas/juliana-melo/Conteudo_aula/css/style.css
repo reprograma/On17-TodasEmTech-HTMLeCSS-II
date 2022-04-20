@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html{
+    font-size: 10px;
+}
+
+.barra-navegacao {
+    background-image: linear-gradient(rgb(65, 92, 211), rgb(166, 197, 244), rgb(255, 255, 255)  );
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    
+
+}
+
+a{
+    text-decoration: none;
+    padding-right:25px;
+    font-size: 1.5rem;
+}
+
+.barra-navegacao a:hover{
+    transition: all 0.8s;
+    background-color: yellow;
+    border-radius: 15px;
+    padding: 5px;
+    
+}
+
+
+.barra-navegacao img {
+    width: 100px;
+    margin-right: 1rem;
+
+}
+
+.barra-navegacao p{
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding:}
+
+
+.conteudo-principal {
+   padding-top: 200px;
+   
+}
+
+
+
+h1{
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+}
+
+.row {   
+  display:grid; 
+  gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  padding-left: 120px;
+  padding-right: 120px;
+ 
+}
+
+.livro{
+max-width: 280px;
+  
+}
