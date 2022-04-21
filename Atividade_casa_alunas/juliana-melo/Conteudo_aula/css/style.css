@@ -45,10 +45,13 @@ a{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-
 .conteudo-principal {
    padding-top: 200px;
    
+   
+}
+.conteudo-principal h1{
+    padding: 10px;
 }
 
 h1{
@@ -57,10 +60,10 @@ h1{
     text-align: center;
     color: rgb(0, 0, 0);
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 20px;
+    padding: 10px;
 }
 
-.row {   
+.row {
   display:grid; 
   gap: 20px;
   grid-template-columns: repeat(4, 1fr);
@@ -70,7 +73,8 @@ h1{
 }
 
 .livro{
-max-width: 280px; 
+    max-width: 280px;
+    
 }
 
 .container-formulario h2{
@@ -96,7 +100,7 @@ form label{
     margin-bottom: 1.5rem;
 }
 form input, form select, form textarea {
-    border: 2px solid rgb(162, 140, 11);
+    border: 2px solid rgb(0, 0, 0);
     border-radius: 5px;
     padding: 0.5rem;
     margin-bottom: 1.5rem;
@@ -114,11 +118,17 @@ form{
     display: inline-block;
     margin: auto;
 }
+
+h2{
+    padding-top: 15px;
+}
+
 .botao input{
-    background-color: rgb(106, 59, 104);
+    background-color: rgb(191, 188, 10);
     font-size: 2rem;
-    color: #ffffff;
+    color: #000000;
     padding: 1rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .rodape{
@@ -127,7 +137,7 @@ form{
 }
 
 .rodape p{
-    color: #ffffff;
+    color: #000000;
     text-align: center;
     font-size: 1.3rem;
 }
@@ -144,9 +154,9 @@ form{
     }
     
 }
-@media screen and (max-width:550px) {
+@media screen and (max-width:550px){
     .row{
-        width: 90%;
+        width: 100%;
     }
     
 }
