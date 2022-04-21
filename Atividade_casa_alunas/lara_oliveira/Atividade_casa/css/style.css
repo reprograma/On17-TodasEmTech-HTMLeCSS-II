@@ -1,3 +1,16 @@
-div ~p{
-    color: red;
-  }
+* {
+  margin: 0;;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-options {
+  list-style: none;
+  display: flex;
+  
+}
