@@ -1,3 +1,191 @@
-div ~p{
-    color: red;
-  }
+
+/*CSS RESET*/
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+/*HEADER*/
+
+header{
+    background-image: url(../img/brazil_jungle.jpg);
+    padding-bottom: 500px;
+}
+
+.menu-nav{
+    background-color: #b5b5b5;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.menu-nav a{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    color: #222222;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.menu-nav a:hover{
+    color: #e8e8e8;
+}
+
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    color: #222222;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+.menu-principal{
+    border-top: 3px solid #b5b5b5;
+    border-bottom: 3px solid #b5b5b5;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu-principal a{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #222222;
+    padding: 10px;
+    margin: 0 15px;
+}
+
+.menu-principal a::before{
+    content: '•';
+    padding-right: 10px;
+}
+
+.menu-principal a:hover{
+    background-color: #b5b5b5;
+    color: #e8e8e8;
+    border-radius: 5px;
+}
+
+/*MAIN*/
+.produtos{
+    margin-top: 30px;
+}
+
+.produtos-cardapio{
+    margin: 30px auto; 
+}
+
+.pratos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pratos h2{
+    font-size: 3em;
+    text-transform: uppercase;
+    border-top: 3px solid #b5b5b5;
+    border-bottom: 3px solid #b5b5b5;
+    margin: 30px auto;
+}
+
+.container-figure{
+    margin: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pratos img{
+    border: 6px solid #222222;
+    padding: 5px;
+
+}
+
+.container-figure figcaption{
+    font-weight: 600;
+    margin: 5px 0 5px 15px;
+}
+
+.container-figure figcaption sup{
+    font-size: 0.8rem;
+}
+
+/*MAIN FORM*/
+
+.contato{
+    background-color: #e8e8e8;
+    color: #676666;
+    padding: 100px 0;
+}
+
+.contato h2{
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.contato form{
+    max-width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contato form label{
+    margin-top: 15px;
+}
+
+.btn{
+    margin: 15px auto;
+}
+
+.contato-div p{
+    text-align: center;
+    color: #676666;
+}
+
+/*FOOTER*/
+.footer{
+    background-color: #b5b5b5;
+    padding: 50px 0;
+}
+
+.footer p{
+    text-align: center;
+}
+
+.footer a{
+    color: #676666;
+}
+
+.footer a:hover{
+    color: #ffffff;
+    padding: 5px 2px;
+}
+
+
+/*MEDIAS-QUERIES*/

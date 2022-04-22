@@ -122,6 +122,13 @@ textarea{
     font-size: 2rem;
     color: #ffffff;
     padding: 1rem;
+    transition: all 0.5s;
+}
+
+.botao input:hover{
+    background-color: rgb(150,76,146);
+    transform: scale(1.1);
+    box-shadow: 0 0 10px 2px #828080; /*eixo-x, eixo-y, opacidade, expansão, cor*/
 }
 
 .rodape{
