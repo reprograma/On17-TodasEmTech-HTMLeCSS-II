@@ -5,19 +5,11 @@
 
 }
 
-html{
-    font-size: 10px;
 
-}
+.barra-marvel{
+    display: flex;
+    padding:2rem;
 
-.barra-navegaçao{
-    background-color: rgb(82, 67, 95);
-    display:flex
-
-}
-
-.barra-navegaçao>img{
-    width: 5%;
 }
 
 
