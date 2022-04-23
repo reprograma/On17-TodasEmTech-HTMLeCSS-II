@@ -12,14 +12,15 @@ html{
 }
 
 body{
-    background: linear-gradient(rgba(169, 153, 171, 0.2), rgba(110, 91, 108, 0.3));
+    background: linear-gradient(rgba(183, 209, 224, 0.2), rgba(14, 87, 100, 0.3));
 }
 
 .barra-navegacao{
-    background-color: rgb(82, 67, 95);
+    background-color: rgb(15, 112, 169);
     display: flex;
     padding: 2rem;
     align-items: center;
+    position: fixed;
 }
 
 .barra-navegacao>img{
@@ -40,16 +41,17 @@ body{
 }
 
 .conteudo-principal h1{
-    color: rgb(106, 59, 104);
+    color: rgb(0, 144, 201);
     font-size: 3rem;
     margin-bottom: 3rem;
     text-align: center;
+    padding: 40px;
 }
 
 p{
-    color: rgb(93, 85, 92);
+    color: rgb(58, 58, 58);
     font-size: 2rem;
-
+    
 }
 
 .conteudo-principal p{
@@ -66,7 +68,7 @@ p{
 }
 
 .background-pais1{
-    background-color: rgb(152, 136, 150);
+    background-color: rgb(255, 255, 255);
 }
 
 .container-pais__texto{
@@ -90,7 +92,7 @@ p{
 }
 
 .container-formulario h2{
-    color: rgb(106, 59, 104);
+    color: rgb(0, 144, 201);
     font-size: 2.5rem;
     text-align: center;
     margin-bottom: 4rem;
@@ -101,7 +103,7 @@ p{
     display: flex;
     flex-direction: column;
     width: 60%;
-    margin: auto;
+    margin: auto;   
 }
 
 form label{
@@ -110,7 +112,7 @@ form label{
 }
 
 form input, form select, form textarea {
-    border: 2px solid rgb(106, 59, 104);
+    border: 2px solid rgb(0, 144, 201);
     border-radius: 5px;
     padding: 0.5rem;
     margin-bottom: 1.5rem;
@@ -126,14 +128,17 @@ textarea{
 }
 
 .botao input{
-    background-color: rgb(106, 59, 104);
+    background-color: rgb(0, 144, 201);
     font-size: 2rem;
     color: #ffffff;
     padding: 1rem;
+    border-style: outset;
+    border-radius: 20px;
+    box-shadow: inset;
 }
 
 .rodape{
-    background-color: rgb(88, 80, 87);
+    background-color: rgb(0, 40, 110);
     padding: 2rem;
 }
 
