@@ -190,8 +190,28 @@ h5 {
     
 }
 
-/*  CONTATO */
+/*  ESCOLHA e CONTATO */
 
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  
+  }
+.escolha-imagem {
+    height: 300px;
+    display: flex;
+    flex-direction: column ;
+    float: left;
+    width: 36%;
+    margin: 50px;
+	transition: 400ms;
+  }
+  
+.escolha-imagem:hover {
+	opacity: 0.3;
+}
+  
 .conteudo-secundario {
     display: flex;
     align-items: center;
@@ -202,7 +222,7 @@ h5 {
   flex-direction: column ;
   }
   
-  .conteudo-secundario-titulo {
+  .titulo3 {
     border-top: 0.4px solid #FFF2E7;
     padding-top: 48px;
     font-family: 'Righteous', cursive;
@@ -297,3 +317,27 @@ footer{
     font-weight: bold;
     font-style: italic;
 }
+
+/* RESPONSIVEL */
+
+@media screen and (max-width:480px){
+
+    .container, .livro-principal, .mais-lidos, .conteudo-secundario, {
+width: auto;
+    }
+
+    h5 {
+		text-align: center;
+	}
+
+	{
+		position: static;
+	}
+
+	.escolha-imagem {
+		width: 100%;
+	}
+    
+
+
+} 
