@@ -117,12 +117,14 @@ h1{
     margin: 0 20px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
-.pratos img{
+.container-figure img{
     border: 6px solid #222222;
+    width: 550px;
+    height: 360px;
     padding: 5px;
-
 }
 
 .container-figure figcaption{
@@ -189,3 +191,52 @@ h1{
 
 
 /*MEDIAS-QUERIES*/
+@media screen and (max-width: 990px){   
+    .menu-nav a{
+        font-size: 1rem;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+    .pratos h2{
+        font-size: 2rem;
+    }
+    .contato form{
+        max-width: 60%;
+    }
+    .contato-div p, .footer p{
+        font-size: 0.875rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .contato form{
+        max-width: 70%;
+    }
+}
+
+@media screen and (max-width: 615px){
+    .menu-nav a{
+        font-size: 0.875rem;
+    }
+    h1{
+        font-size: 1.375rem;
+    }
+    .menu-principal{
+        margin: 0 30px;
+    }
+    .pratos h2{
+        font-size: 1.75rem;
+    }
+    .container-figure img{
+        width: 400px;
+        height: 300px;
+    }
+    .contato form{
+        max-width: 80%;
+    }
+    .contato-div p, .footer p{
+        font-size: 0.875rem;
+        margin: 0 10px;
+    }
+}
