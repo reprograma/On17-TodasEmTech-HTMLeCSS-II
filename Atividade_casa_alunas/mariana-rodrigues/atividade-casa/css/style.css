@@ -1,3 +1,133 @@
-div ~p{
-    color: red;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 15px;
+  background-color: ivory;
+}
+
+.body-section{
+  padding: 15px 0px 0px 0px;
+  background-color: rgb(15, 179, 178, 1);
+  text-align: center;
+  font-family: 'MonteCarlo', cursive;
+  font-size: 25px;
+}
+
+.apresentacao {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  gap: 5px;
+}
+
+h3{
+  width: auto;
+  padding: 7px;
+  text-align: center;
+}
+
+.body-section-h3{
+  padding: 10px;
+  border: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+  background-color: rgb(65, 103, 115);
+} 
+
+.texto-inicial{
+  color: black;
+  text-indent: 10px;
+  font-size: 15px;
+  
+} 
+
+.item {
+  display: flex;
+  width: 500px;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.raca-gatos{
+  display: flex;
+  background-color: rgb(126, 216, 181);
+  justify-content: space-around;
+  align-items: center;
+  padding: 2%;
+  font-size: 15px;
+}
+
+.raca-gatos>img{
+  width: 30%;
+  height: 10%;
+  border-radius: 15px;
+}
+
+.row-reverse{
+  flex-direction: row-reverse;
+  background-color: rgb(20, 130, 127);
+}
+
+.srd{
+  width: 55%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-cat{
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+    /* justify-content: space-between; */
+}
+
+.srd-texto{
+  width: 55%;
+  margin: 10px;
+  color: darkmagenta;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.srd-texto>img{
+  width: 40%;
+  min-width: 250px;
+}
+
+.rodape{
+  background-color: rgb(246, 219, 243);
+  padding: 2rem;
+
+}
+
+.rodape p{
+  color: black;
+  text-align: center;
+}
+
+@media screen and (max-width: 750px){
+  .raca-gatos{
+    flex-direction: column;
   }
+  
+  .raca-gatos img {
+		min-width: 70%;
+	}
+  
+}
+
+@media (max-width: 520px) {
+	.item {
+		width: 90%;
+	}
+	
+	.raca-gatos img {
+		min-width: 80%;
+	}
+}
