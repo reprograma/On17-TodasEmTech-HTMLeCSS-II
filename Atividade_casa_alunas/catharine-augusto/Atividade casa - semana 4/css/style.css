@@ -83,6 +83,16 @@ body{
   font-weight: 500;
 }
 
+.rodape {
+  
+  padding: 1.5rem;
+}
+
+.rodape p {
+  color: #19212e;
+  text-align: center;
+}
+
 
 
 @media (min-width: 576px) {
