@@ -11,7 +11,7 @@
 body {
   font-size: 12px;
   font-family: "Montserrat", sans-serif;
-  background-color: #F8F8F8;
+  background-color: #f8f8f8;
   color: #1b1b1b;
 }
 
@@ -169,11 +169,10 @@ a {
   padding-top: 15px;
 }
 
-
 .imagem {
   object-fit: cover;
-  width: 400px;
-  height: 400px;
+  width: 30vw;
+  height: 30vw;
   /* max-width: 50%; */
   border-radius: 15px;
   margin: 5px;
@@ -206,20 +205,19 @@ a {
   padding-left: 15px;
   padding-right: 15px;
   display: flex;
-  /* flex-direction: column; */
   flex-wrap: nowrap;
   justify-content: center;
   align-items: flex-start;
   padding-top: 15px;
 }
 
+aside {
+  width: 30em;
+}
+
 .pfimg {
-  max-width: 25%;
+  width: 100%;
   border-radius: 15px;
-  /* margin-top: 10px;
-  margin-bottom: 10px; */
-  margin: 10px;
-  border: 2px solid white;
 }
 
 .content {
@@ -234,6 +232,20 @@ a {
   padding-right: 40px;
   text-align: left;
   text-transform: none;
+}
+
+.list {
+  min-width: 10em;
+  width: 50%;
+}
+
+ul {
+  margin-left: 1rem;
+}
+
+.likes-dislike {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 @media (max-width: 720px) {
@@ -272,6 +284,15 @@ a {
     width: 50px;
     height: 50px;
     margin-top: 30px;
+  }
+
+  aside {
+    width: 100%;
+  }
+
+  .bio {
+    flex-direction: column;
+    align-items: center;
   }
 }
 @media (max-width: 500px) {
