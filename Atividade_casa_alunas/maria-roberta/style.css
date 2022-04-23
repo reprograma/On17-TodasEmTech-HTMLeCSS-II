@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: rgb(247, 187, 169);
+}
+
+.barra-inicial {
+  width: 100%;
+  background-color:rgb(218, 92, 92);
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+  position: fixed;
+
+}
+
+.barra-inicial>img {
+  width: 6%;
+  margin-right: 2rem;
+  min-width: 60px;
+}
+
+
+.barra-inicial>p {
+  font-size: 2.5rem;
+  margin-top: 4%;
+}
+
+main {
+  padding-top: 10rem;
+}
+
+h1 {
+  padding: 1%;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  
+}
+
+.Principal{
+  padding: 2%;
+
+}
+
+.top {
+  justify-content: center;
+  background-color:rgb(243, 169, 147);
+  
+}
+
+.foto-roberta {
+  border-radius: 100%;
+  width: 25%;
+  min-width: 200px;
+  display: block;
+  margin:auto;
+  padding: 2%;
+}
+
+.Principal p{
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: justify;
+}
+
+p{
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.turnos{
+  display: flex;
+  text-align: center;
+  padding: 2%;
+  margin-bottom: 2rem;
+  width: 100%;
+  justify-content: space-around;
+}
+
+ul{
+  font-size: 2rem;
+}
+
+.formulario h2{
+  padding: 1rem;
+  color: rgb(223, 128, 100);
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.formulario form{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  padding: 2%;
+  
+}
+
+form{
+  margin: auto;
+}
+
+form label{
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  transition: all 0.5s;
+}
+
+form input, form select{
+  border: 2px solid rgb(224, 125, 95);
+  border-radius: 4px;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  transition: all 0.5s;
+}
+
+form input:hover{
+  background-color: rgb(240, 205, 194);
+}
+
+form select:hover{
+  background-color: rgb(240, 205, 194);
+}
+
+.botao {
+  text-align: center;
+}
+
+.botao input{
+  background-color: rgb(223, 128, 100);
+  font-size: 2rem;
+  padding: 1rem;
+  transition: all 0.5s;
+}
+
+.botao input:hover{
+  background-color: rgb(243, 101, 57);
+  transform: scale(1.1);
+  box-shadow: 5px 5px 5px rgb(247, 109, 67);
+}
+
+.redes-sociais{
+  width: 100%;
+  display: block;
+  text-align: center;
+  margin-bottom: 1rem 5rem;
+  padding: 2%;
+  justify-content: space-between;
+}
+
+.gmail{
+  width: 60px;
+  margin: 1rem 5rem;
+  transition: all 0.5s;
+}
+
+.gmail:hover{
+  transform: scale(1.1);
+}
+
+.linkedin{
+  width: 60px;
+  margin: 1rem 5rem;
+  transition: all 0.5s;
+}
+
+.linkedin:hover{
+  transform: scale(1.1);
+}
+
+.github{
+  width: 60px;
+  margin: 1rem 5rem;
+  transition: all 0.5s;
+}
+
+.github:hover{
+  transform: scale(1.1);
+}
+
+.rodape{
+  background-color:rgb(223, 128, 100);
+  text-align: center;
+  padding: 0.5rem;
+}
+
+@media screen and (max-width: 950px){
+  .formulario form{
+    width: 80%;
+  }
+
+  html {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 550px){
+  .formulario form{
+    width: 90%;
+  }
+
+  html {
+    font-size: 7px;
+  }
+}  
