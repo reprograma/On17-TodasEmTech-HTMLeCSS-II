@@ -106,10 +106,7 @@ p {
 
 .main-section2 {
   background-color: #a5dada;
-  padding: 50px;
   font-weight: bold;
-  /* width: 100%; */
-  min-width: 500px;
 }
 
 .main-section2 h2 {
@@ -145,6 +142,8 @@ p {
   background-color: #fba89b;
   /* padding: 50px; */
   width: 100%;
+  min-width: 606px;
+
 }
 
 .main-aside-div {
@@ -152,7 +151,7 @@ p {
   justify-content: center;
   margin-top: 30px;
   width: 100%;
-  min-width: 606px;
+
 
 }
 
@@ -185,7 +184,7 @@ footer {
   background-color: #ffcb12;
   color: white;
   text-align: center;
-  padding: 8px;
+  padding: 8px 0;
   font-size: 0.8rem;
   font-weight: bold;
   width: 100%;
@@ -202,30 +201,29 @@ footer {
 }
 
 @media screen and (max-width:1035px) {
-  .sobre-mim {
-    flex-direction: column;
-  }
-
-  .sobre-mim {
-    justify-content: center;
-    align-items: center;
-
-  }
-
   .texto {
     width: 80%;
   }
 
   .foto-lari {
-    width: 80%;
-    padding-left: 25%;
+    width: 100%;
+    justify-content: center;
+    display: flex;
   }
 }
 
-@media screen and (min-width:700px) {
+@media screen and (max-width:700px) {
 
-  .main-section2,
+  .main-section2 {
+    width: 80%;
+    padding: 50px 10%;
+  }
+}
+
+@media screen and (max-width:700px) {
+
   .main-aside {
-    width: 100%;
+    width: 80%;
+    padding: 50px 10%;
   }
 }
