@@ -1,0 +1,360 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&family=Poppins:wght@100;200;300;400&display=swap");
+
+:root {
+  --mobile-menu-height: 57px;
+  --primary-color: #03001d;
+  --secondary-color: #ff0000;
+  --inner-content-padding: 1rem;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: "Montserrat", sans-serif;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.mobile-container {
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: #333;
+  color: white;
+}
+
+.mobile-logo-container {
+  height: var(--mobile-menu-height);
+}
+
+.mobile-container .logo {
+  height: var(--mobile-menu-height);
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: var(--primary-color);
+  position: relative;
+}
+
+.topnav #menu {
+  display: none;
+  background-color: #333;
+}
+
+.topnav #menu.visible {
+  display: block;
+}
+
+.topnav #menu a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+  padding-left: 14px;
+  transition: padding-left 0.3s ease-in-out;
+}
+
+.topnav #menu a:hover {
+  background-color: white;
+  color: var(--secondary-color);
+  font-weight: bold;
+  padding-left: 1.3em;
+}
+
+.topnav a.icon {
+  padding: 20px;
+  background: #fff;
+  color: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: color 0.3s ease-in-out;
+}
+
+.topnav a.icon.active {
+  color: var(--secondary-color);
+}
+
+.topnav a:hover {
+  color: var(--secondary-color);
+}
+
+header {
+  display: none;
+  background: var(--primary-color);
+  position: fixed;
+  width: 100%;
+  justify-content: space-around;
+  color: var(--secondary-color);
+}
+
+section,
+footer {
+  padding: var(--inner-content-padding);
+}
+
+section > * {
+  max-width: 900px;
+  margin: auto;
+}
+
+header img {
+  max-height: 4rem;
+}
+
+header .navbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.navbar .menu-item {
+  color: var(--secondary-color);
+  margin: 1.5rem;
+}
+
+.navbar .menu-item:hover {
+  color: white;
+}
+
+.inicio {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.inicio img {
+  width: 70%;
+  max-width: 18rem;
+  padding-top: 3rem;
+  padding-bottom: 0.5rem;
+}
+
+.inicio h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.inicio p {
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+.sobre,
+.contato {
+  color: var(--primary-color);
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.sobre h2,
+.servicos h2,
+.contato h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: var(--secondary-color);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.sobre img {
+  max-width: 80%;
+  object-fit: scale-down;
+  border-radius: 50%;
+  border: 2px solid var(--primary-color);
+  margin-bottom: 2rem;
+}
+
+.sobre p {
+  font-size: 1.2rem;
+  text-align: justify;
+  padding-bottom: 2rem;
+}
+
+.servicos {
+  padding-top: 2rem;
+  background: var(--primary-color);
+}
+
+.servicos .services-galeria {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.servicos ul {
+  text-align: left;
+  padding-bottom: 1rem;
+}
+
+.servicos li::before {
+  content: "★";
+  color: var(--secondary-color);
+  margin-right: 0.5rem;
+}
+
+.services li {
+  color: white;
+  padding: 0.3rem 0;
+}
+
+.servicos .galeria {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+.servicos .galeria img {
+  margin: 0.5rem 0;
+  border-radius: 1rem;
+  border: 2px solid white;
+  max-width: 250px;
+}
+.contato h2 {
+  margin-top: 0;
+}
+.contato .colunas {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.contato .texto {
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 0.5rem 0;
+}
+
+.contato .paragrafo-texto {
+  padding: 1rem 0;
+}
+
+.contato p {
+  font-size: 1rem;
+  padding: 0.2rem;
+}
+
+.contato .info {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.contato .fas {
+  color: var(--secondary-color);
+  margin-right: 1rem;
+}
+
+.contato .titulo {
+  display: block;
+  margin-bottom: 3px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.contato form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input,
+textarea {
+  border: 2px solid lightgrey;
+  border-radius: 3px;
+  padding: 0.3rem;
+  margin: 0.3rem 0;
+  font-size: 1rem;
+}
+
+form button {
+  max-width: 120px;
+  padding: 0.5rem 2rem;
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  color: white;
+  background: var(--secondary-color);
+  border: 2px solid var(--secondary-color);
+  border-radius: 0.5rem;
+}
+
+form button:hover {
+  color: var(--secondary-color);
+  background: none;
+}
+
+footer {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  text-align: center;
+}
+
+footer span a {
+  color: white;
+  background: none;
+}
+
+footer span a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 769px) {
+  .inicio h1 {
+    font-size: 3rem;
+  }
+
+  .mobile-container {
+    display: none;
+  }
+
+  header {
+    display: flex;
+  }
+
+  .servicos .galeria {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .servicos .galeria img {
+    width: 50%;
+    height: min-content;
+    margin: 10px;
+  }
+
+  .contato .colunas {
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .colunas div:first-child {
+    flex: 0 0 400px;
+  }
+
+  .colunas div:last-child {
+    flex: 1 1 auto;
+  }
+}
