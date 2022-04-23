@@ -1,3 +1,162 @@
-div ~p{
-    color: red;
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color:bisque;
+  font-family: cursive;
+}
+
+
+
+.paisagens>h1 { 
+  color:black;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 40px;
+
+}
+
+.dia-nascendo >h2{
+display: flex;
+}
+
+
+
+
+.minhas-fotos>img {
+  width: 10%;
+  margin-right: 2rem;
+  border-radius: 50%;
+}
+
+.minhas-fotos{
+    background-color:black;
+    padding: 0rem 10rem;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
   }
+   
+.minhas-fotos a{
+ text-align:center;
+ justify-content: space-between;
+ color: #ffffff;
+ text-decoration: none;
+ padding:16px;
+
+}
+.minhas-fotos>h1{
+text-align: center;
+font-size: 2em;
+
+}
+
+
+
+.dia-nascendo img, 
+.por-do-sol img,
+.nascer-do-sol img {
+  width: 50%;
+  min-width: 150px;
+  text-align: center;
+}
+
+
+.por-do-sol {
+flex-direction:row-reverse;
+border-top: 1px black solid;
+border-bottom: 1px black solid;
+
+
+}
+
+.paisagem {
+display: flex;
+background-color:bisque;
+justify-content:space-between;
+font-family: cursive;
+align-items: center;
+padding:60px 40px;
+}
+
+.paisagem h2{
+width: 40%;
+
+}
+
+.rodape{
+  background-color:black;
+  padding: 2rem;
+}
+
+.rodape p{
+  color: #ffffff;
+  text-align: center;
+}
+
+.rodape img{
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  border-bottom: 2rem;
+  display:flex;
+  justify-content: center;
+  
+}
+
+.rodape a {
+display:block;
+justify-content: center;
+margin: 20px;
+text-align: center;
+}
+
+.Redes-Sociais {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 60px;
+  
+}
+
+@media screen and (max-width:700px){
+.paisagem {
+  display:block;
+}
+
+.paisagem img {
+  width: 100%;
+}
+.paisagem h2{
+  width: 100%;
+}
+  .minhas-fotos{
+    width:100%;
+    justify-content: flex-start;
+    display: block;
+    padding:0;
+  }
+  .minhas-fotos a{
+    width: 100%;
+  
+  }
+  .rodape {
+    max-width: 100%;
+    display: block;
+    font-size: 12px;
+  }
+  .Redes-Sociais {
+    max-width: 100%;
+    display: flex;
+
+  }
+  .Redes-Sociais a{
+    display: flex;
+    
+  }
+}
