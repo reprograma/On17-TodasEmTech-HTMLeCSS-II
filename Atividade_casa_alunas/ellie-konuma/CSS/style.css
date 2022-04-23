@@ -2,9 +2,6 @@
   margin: 0;
   padding: 0;
   border: 0;
-  /* font-size: 100%; */
-  /* font: inherit; */
-  /* text-decoration: none; */
   vertical-align: baseline;
 }
 
@@ -67,102 +64,12 @@ a {
   height: 25px;
 }
 
-.caixa_banner {
-  background-image: url(../../IMG/portfolio/sunset-d-d.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 85vh;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  text-align: center;
-  border-radius: 20px;
-}
-
-.pfp {
-  width: 250px;
-  max-width: 80%;
-  border-radius: 100%;
-  box-shadow: 0px 0px 40px 10px #fadcc7;
-}
-
-.titulo_1 {
-  font-size: 2rem;
-  text-shadow: 2px 2px 5px #fadcc7;
-}
-
-.subtitulo_1 {
-  font-size: 28px;
-  text-shadow: 2px 2px 5px #fadcc7;
-}
-.link_sobre {
-  text-decoration: none;
-  font-size: 18px;
-  text-transform: uppercase;
-  color: #7e459b;
-  font-weight: bold;
-  background-color: white;
-  padding: 8px 20px;
-  border-radius: 20px;
-}
-.link_cv {
-  text-decoration: none;
-  font-size: 18px;
-  text-transform: uppercase;
-  color: white;
-  font-weight: bold;
-  background-color: #301c55;
-  padding: 8px 20px;
-  border-radius: 20px;
-}
-
-.caixa_sobre {
-  display: flex;
-  justify-content: space-around;
-  font-size: 18px;
-  flex-direction: column;
-  align-items: center;
-}
-
-.nome {
-  font-weight: bold;
-}
-
 .content {
   text-align: center;
 }
 
-.lado_1 {
-  width: 35%;
-  /* text-align: inherit; */
-}
-
-.margin_text {
-  margin-bottom: 40;
-}
-
-.lado_2 {
-  width: 35%;
-  /* text-align: inherit; */
-}
-
-.lista {
-  display: inline-block;
-  text-align: left;
-}
-
-.h3 {
-  font-size: 25px;
-}
-
-.sub_titulo {
-  font-size: 35px;
-  color: rgb(122, 73, 27);
-}
-
 .galeria {
   display: flex;
-  /* flex-direction: column; */
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
@@ -173,32 +80,8 @@ a {
   object-fit: cover;
   width: 30vw;
   height: 30vw;
-  /* max-width: 50%; */
   border-radius: 15px;
   margin: 5px;
-}
-
-.caixa_links {
-  margin-top: 100px;
-  margin-bottom: 50px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.links {
-  background-color: #be8d51;
-  width: 170px;
-  height: 170px;
-  text-align: center;
-  text-decoration: none;
-  color: white;
-}
-
-.icone {
-  width: 50px;
-  height: 50px;
-  margin-top: 30px;
 }
 
 .bio {
@@ -251,39 +134,6 @@ ul {
 @media (max-width: 720px) {
   .logo {
     font-size: x-large;
-  }
-
-  .caixa_sobre {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .lado_1 {
-    width: 80%;
-  }
-
-  .lado_2 {
-    width: 80%;
-  }
-
-  .sub_titulo {
-    margin: 20px;
-    text-align: center;
-    font-size: 30px;
-  }
-  .links {
-    width: 170px;
-    height: 170px;
-    text-align: center;
-    text-decoration: none;
-    color: white;
-  }
-
-  .icone {
-    width: 50px;
-    height: 50px;
-    margin-top: 30px;
   }
 
   aside {
