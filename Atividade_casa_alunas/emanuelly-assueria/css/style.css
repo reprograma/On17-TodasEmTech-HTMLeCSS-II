@@ -63,7 +63,7 @@ a{
     display: flex;
     list-style: none;
     text-transform: uppercase;
-    justify-content: 
+    justify-content: center;
 }
 
 #navbar-items li{
@@ -103,4 +103,87 @@ a{
 
 #clientes{
     width: 100%;
+    background: #eee;
+    color: #111;
+    padding: 2rem;
+
+}
+
+.clientes-containers{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    padding-left: 10rem;
+    
+}
+
+.cliente{
+    display: flex;
+    width: 60%;
+}
+
+/*Sobre*/
+
+#features{
+    width: 100%;
+    background: #111;
+    color: #eee;
+    padding: 50px;
+}
+
+.features-container{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 2rem;
+}
+
+.feature{
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+    padding: 2rem;
+    border-radius: 5px;
+}
+
+.feature-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/*Nosso produto*/
+
+#product{
+    width: 100%;
+    padding: 50px;
+}
+
+#product-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#items{
+    width: 650px;
+}
+
+#items .item{
+    display: flex;
+    padding: 2rem;
+    margin: 15px 0;
+    font-size: 1.3rem;
+}
+
+/*Equipe*/
+
+#equipe{
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    background: #333;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 5px;
 }
