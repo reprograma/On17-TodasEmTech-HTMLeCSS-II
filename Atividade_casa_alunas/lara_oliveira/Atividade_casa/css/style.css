@@ -17,7 +17,7 @@ nav {
   align-items: center;
   background: white;
   height: 13vh;
-  
+  width: 100%;
 }
 
 a {
@@ -77,7 +77,11 @@ a:hover {
   display: none;
 }
 
-@media (max-width: 800px) {
+img {
+  width: 100%;
+}
+
+@media (max-width: 950px) {
   .responsive-check {
     display: block;
     margin-right: 40px;
@@ -103,6 +107,11 @@ a:hover {
     align-items: center;
   }
 
+  .nav-list {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
   #check:checked ~ ul {
     right: 0;
   }
@@ -115,7 +124,7 @@ a:hover {
     transition: 0.5s ease-in-out;
   }
 
-  .first-sec {
-    display: flex;
-  }
+  img {
+    width: 100%;
+  } 
 }
