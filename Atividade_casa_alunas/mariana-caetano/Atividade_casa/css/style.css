@@ -32,7 +32,6 @@ nav {
   background-color: #4E5283;
   font-weight: 500;
   margin-bottom: 5rem;
-  
 }
 
 nav ul {
@@ -154,6 +153,15 @@ nav ul li a:hover {
   line-height: 2rem;
 }
 
+#contribua ol li a{
+  text-decoration: none;
+  color:#7871AA;
+}
+
+#contribua ol li a:hover{
+  color:#002240;
+}
+
 footer {
   background-color: #002240;
   color: #fff;
@@ -171,4 +179,36 @@ footer a:hover {
   color:#fff;
   background-color: #7871AA;
   transition: 0.5s;
+}
+
+@media screen and (max-width:900px) {
+  .text-header h1 {
+    font-size: 3rem;
+  }
+
+  nav ul{
+    display: block;
+    text-align: center;
+    padding: 0.7rem;
+  }
+  .text-header p {
+    font-size: 1.5rem;
+  }
+  .first-row {
+    display: block;
+    margin: 5rem;
+  }
+
+  .second-row {
+    display: block;
+    margin: 5rem;
+  }
+
+  .card {
+    margin-bottom: 5rem;
+  }
+
+  .first-color h3 {
+    font-size: 2rem;
+  }
 }
