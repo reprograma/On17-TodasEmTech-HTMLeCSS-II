@@ -1,0 +1,241 @@
+html {
+    font-size: 16px;
+    overflow-y: overlay;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 100;
+}
+
+.container-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: rgba(22, 67, 107, 1.0);
+    padding: 2rem;
+}
+
+.container-navbar h1 {
+    font-weight: 300;
+    font-size: 3rem;
+    /* font-style: italic; */
+    font-weight: 100;
+
+}
+
+.container-navbar > h2 {
+    display: flex;
+    justify-content: right;
+    gap: 0.75rem;
+    font-weight: 300;
+    align-self: start;
+    font-size: 1.5rem;
+}
+
+.container-navbar > h2 > a {
+    color: white;
+    text-decoration: none;
+    transition: all 500ms;
+}
+
+.container-navbar > h2 > a:hover {
+    transition: all 500ms;
+    color: rgb(46, 255, 224);
+    text-decoration: underline; 
+    text-decoration-thickness: 5px;
+    text-decoration-skip-ink: auto;
+    line-height: 1.25rem;
+    text-decoration-style: dotted;
+}
+
+/* .container-header > div > h1 {
+    font-weight: 100;
+    color: rgb(0, 0, 114);
+    max-width: 50%;
+} */
+
+.container-articles {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-articles > h3{
+    font-weight: 100;
+    width: 50%;
+    text-align: center;
+    align-self: center;
+    padding: 2.5rem;
+    font-size: 2rem;
+}
+
+.container-articles button{
+    font-weight: 600;
+    padding: 1rem 1.5rem;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgba(22, 67, 107, 1.0);
+    border-width: 2px;
+    color: white;
+    text-align: center;
+    align-self: center;
+    margin: 2.5rem;
+    background-color: rgba(22, 67, 107, 1.0);
+}
+.container-articles button:hover{
+    font-weight: 600;
+    border-color: rgba(22, 67, 107, 1.0);
+    color: rgba(22, 67, 107, 1.0);
+    background-color: white;
+}
+    
+.container-header {
+    /* background-image: url(img/sp-background.jpg); */
+    background-color: rgba(22, 67, 107, 1.0);
+    background-position: center;
+    color: white;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    /* min-height: 40vh; */
+}
+
+.container-header > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 50rem;
+    align-self: center;
+}
+
+.container-header > div > h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    width: 100%;
+    padding-bottom: 1.25rem;
+    /* font-weight: 500; */
+}
+
+.container-header > div > img {
+    align-self: flex-start;
+    height: 7rem;
+}
+
+.container-articles > section {
+    display: flex;
+    gap: 1.25rem;
+    padding: 0.75rem 2.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.container-articles > section > article {
+    border: 0px solid rgba(0.1, 0.1, 0.1, 0.2);
+    border-radius: 10px;
+    padding: 0.75rem;
+    background-color: rgba(22, 67, 107, 0.075);
+}
+
+.container-articles > section > article > h5 {
+    font-weight: 200;
+}
+
+.container-articles > section > article > h4 {
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: rgb(0, 0, 114);
+}
+
+.container-articles > section > article > img {
+    width: 25rem;
+    /* height: 30rem; */
+    height: auto;
+    aspect-ratio: 4 / 3;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: rgba(22, 67, 107, 1.0);
+    height: 5rem;
+    display: grid;
+    justify-content: center;
+    margin-top: 2.5rem;
+}
+
+footer > h6 {
+    font-weight: 200;
+    font-size: medium;
+    color: white;
+}
+
+footer a {
+    color: rgb(46, 255, 224);
+    /* color: rgb(252, 42, 158); */
+}
+
+@media (max-width: 1200px) {
+    
+}
+
+@media (max-width: 900px) {
+    
+}
+
+@media (max-width: 620px) {
+    .container-navbar {
+        padding: 0.5rem 1rem;
+    }
+    .container-navbar h1 {
+        font-size: 1rem;
+    }
+    .container-navbar > h2 {
+        font-size: 1.25rem;
+    }
+    .container-header {
+        padding: 2rem;
+    }
+    .container-header > div > h3 {
+        font-size: 1rem;
+        padding: 0;
+    }
+    .container-articles > section > article > img {
+        width: 20rem;
+        height: auto;
+        aspect-ratio: 4 / 3;
+        background-size: cover;
+        border-radius: 5px;
+    }
+    .container-articles > section > article > h4 {
+        font-weight: 500;
+        font-size: 1.25rem;
+        color: rgb(0, 0, 114);
+    }
+    .container-articles > section {
+        padding: 1rem 1.5rem;
+        margin-top: 0.5rem;
+    }
+    .container-articles > section > article {
+        border: 0px solid rgba(0.1, 0.1, 0.1, 0.2);
+        border-radius: 10px;
+        padding: 0.75rem;
+        background-color: rgba(22, 67, 107, 0.075);
+    }
+    footer {
+        margin: 0;
+        padding: 1.5rem 1rem;
+        height: fit-content;
+    }
+    footer h6{
+        font-size: 1rem;
+        margin: 0;
+        padding: 0;
+    }
+}
