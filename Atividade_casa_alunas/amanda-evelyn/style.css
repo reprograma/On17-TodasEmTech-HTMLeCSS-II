@@ -1,0 +1,283 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  
+  border: 0;
+}
+
+html{
+
+  font-size: 10px;
+  scroll-behavior: smooth;
+  font-family: 'Varela Round', sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+header{
+  display: block;
+  background: linear-gradient(to top, transparent 0%, floralwhite 90%),url(./IMG/1886_iva\(1\).jpg) no-repeat center center;
+  background-size: cover
+}
+
+.header__div-nav{
+background-color: floralwhite;
+width: 100%;
+top: 0;
+position: fixed;
+height: 9rem;
+display: flex;
+align-items: center;
+padding: 2rem;
+padding-left: 15rem;
+padding-right: 15rem;
+}
+
+.header__nav-logo{
+font-family: 'Updock', cursive;
+font-size: 5rem;
+font-weight: bold;
+color: mediumvioletred;
+margin-left: -8rem;
+margin-right: 23rem;
+}
+
+.header__nav{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.header__nav-a{
+  color: deeppink;
+  font-size: 2.5rem;
+  margin-top: 1.5rem;
+  padding: 1.5rem;
+}
+
+.header__nav-a:hover {
+  color: mediumvioletred;
+  font-weight: bold;
+}
+
+.header__div{
+width: 100%;
+margin-top: 9rem;
+padding: 20rem;
+}
+
+.header__h1{
+text-align: left;
+font-size: 5rem;
+font-weight: bold;
+color: mediumvioletred;
+padding-right: 0.5rem;
+}
+
+.header__p{
+text-align: left;
+font-size: 15px;
+color: mediumvioletred;
+padding: 5px;
+}
+
+.header__a{
+font-size: 1rem;
+font-weight: bold;
+text-transform: uppercase;
+color: mediumvioletred;
+background-color: floralwhite;
+margin-top: 1rem;
+padding: 0.5rem 1.5rem;
+border-radius: 2rem;
+border-color: floralwhite;
+justify-content: center;
+}
+
+main{
+  width: 100%;
+  padding-left: 40rem;
+  padding-right: 40rem;
+}
+
+.main__div-h2{
+  text-align: center;
+  margin-top: 14rem;
+  margin-bottom: 8rem;
+  display: block;
+  font-size: 3.5rem;
+  color: mediumvioletred;
+}
+
+.main__div-div{
+background-color: floralwhite;
+border-radius: 10%;
+display: flex;
+}
+
+.main__div-img{
+width: 25rem;
+border-radius: 70%;
+margin-bottom: 2rem;
+}
+
+.main__section-p{
+color: mediumvioletred;
+margin: 1.5rem;
+font-size: 1.5rem;
+}
+
+.main__section-h3{
+font-size: 25px;
+color: deeppink;
+margin-bottom: 10px;
+}
+
+.main__section-ul{
+margin-top: 0.5rem;
+font-size: 1.8rem;
+color: hotpink;
+
+
+}
+
+.main__div-lista{
+background-color: floralwhite;
+padding: 5rem;
+border-radius: 30%;
+margin: 2rem 2rem;
+display: flex;
+align-items: flex-start;
+justify-content: space-between;
+}
+
+.main__div-links{
+margin-top: 8rem;
+background-color: floralwhite;
+padding: 1.5rem 1.5rem;
+border-radius: 45%;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.main__section-links{
+display: flex;
+width: 13rem;
+padding: 2rem;
+margin-left: 2rem;
+margin-right: 2rem;
+text-align: center;
+justify-content: space-around;
+}
+
+.icon{
+  width: 7rem;
+  height: 7rem;
+  padding: 1rem;
+  justify-content: center;
+  }
+
+.main__section-links-p{
+color: deeppink;
+font-size: 2rem;
+margin-top: 1.5rem;
+margin-left: 1.5rem;
+align-items: center;
+}
+
+.main__section-links-p:hover{
+color: mediumvioletred;
+font-weight: bold;
+
+}
+
+footer{
+  margin-top: 100px; 
+  color: hotpink;
+  background-color: floralwhite;
+  text-align: center;
+  padding: 7rem;
+  margin-bottom: 0;
+  display: block;
+  width: 100%;
+  font-size: 1.8rem;
+}
+.footer__div-p-a{
+  color: deeppink;
+}
+.footer__div-p-a:hover {
+  color: mediumvioletred;
+  font-weight: bold;
+}
+
+.main__div-form{
+
+  background-color: floralwhite;
+  border-radius: 2rem;
+  justify-content: center;
+}
+
+.container-formulario{
+
+  color: deeppink;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.container-formulario form{
+
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-bottom: auto;
+}
+
+form label{
+
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+form input, form select, form textarea{
+
+  border: 2px solid hotpink;
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+textarea{
+
+height: 15vh;
+}
+
+.botao{
+
+text-align: center;
+}
+
+
+.botao input{
+
+background-color: hotpink;
+font-size: 2rem;
+color: white;
+padding: 1rem;
+margin-top: 10px;
+}
+
+@media screen and(max-width 1338px) {
+
+  body{
+
+      width: 10%;
+      flex-direction: column;
+      display: block;
+  }
+
+}
