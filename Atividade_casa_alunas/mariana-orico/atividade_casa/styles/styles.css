@@ -1,0 +1,253 @@
+* {
+    --text-font: 'Varela Round', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(30, 30, 63);
+}
+
+header {
+    background-color: rgb(30, 30, 63);
+    display: flex;
+    padding: 2rem;
+    align-items: center;
+}
+
+.titleContainer {
+    color: white;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#logoImage {
+    width: 80px;
+    margin-right: 20px;
+}
+
+ul {
+    margin-left: 30%;
+    justify-content: space-between;
+    /* Não consegui dar espaçamento entre o menu */
+}
+
+li {
+    display: inline-block;
+
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: rgb(33, 27, 121);
+    transition: 0.3s all;
+}
+
+#acesse-a-sua-unidade-btn {
+    border: 2px solid rgb(33, 27, 121);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#acesse-a-sua-unidade-btn:hover {
+    background-color: rgb(33, 27, 121);
+    color: white;
+}
+
+#titleText {
+    font-weight: 200;
+    font-size: 140%;
+    margin-top: 0%;
+    padding-right: 20px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.titleContainer,
+.caixa-banner,
+.nossos-servicos2,
+.proposta1,
+.apresentacao-torre,
+section {
+    padding: 4%, 7%;
+}
+
+.caixa-banner {
+    background: url(./imagens/1.jpg);
+    background-position: center;
+    width: 100%;
+    height: 70vh;
+    text-align: flex-end;
+}
+
+.apresentacao-torre {
+    background-color: rgb(231, 231, 231);
+}
+
+h2 {
+    color: black;
+    font: var(--text-font);
+    font-size: 56px;
+    height: 550px;
+    justify-content: end;
+    /* Não consegui deixar o texto na parte de baixo da imagem */
+}
+
+#torre-nome {
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    padding: 50px;
+    margin-right: 150px;
+
+}
+
+#torreTexto {
+    color: black;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    margin-left: 150px;
+}
+
+#assTorre {
+    width: 140px;
+    justify-content: center;
+    align-items: center;
+    /* Não consegui centralizar a imagem */
+}
+
+.nossos-servicos2 {
+    background-color: rgb(62, 62, 146);
+
+}
+
+h3 {
+    font-size: 35px;
+    margin-top: 40px;
+    margin-left: 60px;
+}
+
+.adm {
+    margin-top: 30px;
+}
+
+.adm,
+.fin,
+.pess,
+.online,
+.outros {
+    font-size: 20px;
+    margin-left: -36%;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    margin-right: 20%;
+    margin-left: -33%;
+    justify-content: justify;
+}
+
+section {
+    padding: 5% 41.63%;
+    background-color: rgb(231, 231, 231);
+}
+
+.proposta1 {
+    margin-top: 15px;
+}
+
+h4 {
+    font-size: 1.6rem;
+    margin-top: 5px;
+    align-items: center;
+}
+
+form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 150%;
+    margin-bottom: 20px;
+}
+
+form [type=submit] {
+    height: 45px;
+    width: 50%;
+    background-color: rgb(33, 27, 121);
+    color: white;
+    font-weight: bold;
+}
+
+form [type=submit]:hover {
+    cursor: pointer;
+}
+
+input {
+    margin-top: 20px;
+    height: 40px;
+    padding: 15px;
+    border-radius: 20px;
+    border: 2px solid rgb(30, 30, 63);
+    font-size: 15px;
+
+}
+
+footer {
+    font-size: 20px;
+    padding: 1.5rem;
+    text-align: center;
+    color: rgb(212, 212, 212);
+}
+
+@media screen and (max-width:980px) {
+    .form {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .titleContainer {
+        flex-direction: row;
+    }
+
+    .caixa-banner {
+        width: 100%;
+        margin-bottom: 3rem;
+
+    }
+
+    .apresentacao-torre,
+    .proposta1, form,
+    .nossos-servicos2,
+    footer {
+        justify-content: center;
+        align-items: center;
+    }
+
+    html {
+        font-size: 8px;
+    }
+
+}
+
+@media screen and (max-width:530px) {
+    .form {
+        width: 90%;
+    }
+
+    html {
+        font-size: 7px;
+    }
+}

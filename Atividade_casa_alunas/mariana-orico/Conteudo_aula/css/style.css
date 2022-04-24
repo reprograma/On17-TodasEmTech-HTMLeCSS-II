@@ -9,7 +9,7 @@ html{
 }
 
 body{
-    background: linear-gradient(rgba(169, 153, 171, 0.2, rgba(110, 91, 108, 0.3)))
+    background: linear-gradient(rgba(169, 153, 171, 0.2), rgba(110, 91, 108, 0.3));
 }
 
 .barra-navegacao{
@@ -17,7 +17,6 @@ body{
     display: flex;
     padding: 2rem;
     align-items: center;
-
 }
 
 .barra-navegacao>img{
@@ -32,7 +31,7 @@ body{
 }
 
 .conteudo-principal,
-.container-pais{
+.container-pais, .container-formulario{
     padding: 4% 7%;
 }
 
@@ -54,14 +53,13 @@ p{
 }
 
 .container-pais{
-    background-color: rgb(152, 136, 150);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.container-pais1{
-    background-color: #bea2d1;
+.background-pais1{
+    background-color: rgb(152, 136, 150);
 }
 
 .container-pais__texto{
@@ -81,7 +79,7 @@ p{
 
 .row-reverse{
     flex-direction: row-reverse;
-    background-color: rgb(196 183 196);
+    background-color: rgb(196, 183, 196);
 }
 
 .container-formulario h2{
@@ -139,19 +137,28 @@ form{
 
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:980px){
+    .container-formulario form{
+       width: 80%;
+    }  
+}
+
+@media screen and (max-width:700px){
     .container-pais{
         flex-direction: column;
-        align-items: center;
     }
+
     .container-pais__texto{
         width: 100%;
         margin-bottom: 3rem;
+
     }
+
     .container-pais{
         justify-content: center;
         align-items: center;
     }
+
     html{
         font-size: 8px;
     }
@@ -160,6 +167,10 @@ form{
 
 @media screen and (max-width:530px){
     .container-formulario form{
-        width: 90%;
+       width: 90%;
+    }  
+
+    html{
+        font-size: 7px;
     }
 }
