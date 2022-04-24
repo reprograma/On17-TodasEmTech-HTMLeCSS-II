@@ -8,6 +8,7 @@
 
 body {
   font-family: 'Oswald', sans-serif;
+  background: black;
 }
 
 nav {
@@ -15,7 +16,8 @@ nav {
   justify-content: space-around;
   align-items: center;
   background: white;
-  height: 15vh;
+  height: 13vh;
+  
 }
 
 a {
@@ -47,14 +49,9 @@ a:hover {
 }
 
 
-main {
-  background: black;
-}
-
 .first-sec {
   display: flex;
   justify-content: center;
-  left: 25px;
 }
 
 .responsive-menu div{
@@ -83,20 +80,27 @@ main {
 @media (max-width: 800px) {
   .responsive-check {
     display: block;
+    margin-right: 40px;
   }
 
   ul {
     position: fixed;
     width: 100%;
     height: 100vh;
-    top: 80px;
+    top: 100px;
     right: -100%;
     text-align: center;
     transition: all 0.5s;
+    background: white;
+  }
+
+  nav {
+    height: 10vh;
   }
 
   nav ul li {
     display: block;
+    align-items: center;
   }
 
   #check:checked ~ ul {
@@ -109,5 +113,9 @@ main {
     width: 4rem;
     height: 4rem;
     transition: 0.5s ease-in-out;
+  }
+
+  .first-sec {
+    display: flex;
   }
 }
