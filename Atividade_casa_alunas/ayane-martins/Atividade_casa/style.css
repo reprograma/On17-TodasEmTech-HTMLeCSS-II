@@ -5,18 +5,20 @@
     text-decoration: none;
     
     border: 0;
+
 }
 html{
     scroll-behavior: smooth;
     font-family: 'Poppins', sans-serif;
     width: 100%;
     height: 100%;
+    font-size: 10px;
 }
 
 /* header */
 header{
     display: block;
-    background: linear-gradient(to top, transparent 0%, #fff 80%),url(./imagens/comida-mineira-gastronomia-minas-gerais.jpg) no-repeat center center;
+    background: linear-gradient(to top, transparent 0%, #fff 100%),url(./imagens/comida-mineira-gastronomia-minas-gerais.jpg) no-repeat center center;
     background-size: cover
 }
 .header__div-nav{
@@ -24,16 +26,16 @@ header{
     width: 100%;
     top: 0;
     position: fixed;
-    height: 150px;
+    height: 9.37rem;
     display: flex;
     align-items: center;
-    padding: 20px;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding: 10px;
+    padding-left: 9.37rem;
+    padding-right: 9.37rem;
 }
 .header__img{
-    width: 160px;
-    margin-right: 200px;
+    width: 10rem;
+    margin-right: 10px;
 }
 .header__nav{
     width: 100%;
@@ -41,22 +43,23 @@ header{
     justify-content: space-around;
 }
 .header__nav-a{
-    color: black;
-    font-size: 20px;
+    color: rgb(78, 7, 7);
+    font-size: 1.25rem;
+    font-weight: bolder;
 
 }
 .header__div{
     width: 100%;
-    margin-top: 90px;
-    padding: 200px;
+    margin-top: 5.62rem;
+    padding: 12.5rem;
 }
 .header__h1{
-    font-size: 60px;
+    font-size: 2.5rem;
     text-align: center;
 }
 .header__p{
-    padding-top: 20px;
-    font-size: 25px;
+    padding-top: 1.25rem;
+    font-size: 2rem;
     text-align: center;
 
 }
@@ -64,22 +67,22 @@ header{
 /* main */
 main{
     width: 100%;
-    padding-left: 400px;
-    padding-right: 400px;
+    padding-left: 3.12rem;
+    padding-right: 3.12rem;
 }
 .main__div-h2{
     text-align: center;
-    margin-top: 150px;
-    margin-bottom: 80px;
+    margin-top: 1.56rem;
+    margin-bottom: 1.56rem;
     display: block;
-    font-size: 60px;
+    font-size: 2.5rem;
 }
 .main__section-h3{
-    font-size: 20px;
+    font-size: 1.5rem;
     text-align: center;
 }
 .main__section-ul{
-    font-size: 18px;
+    font-size: 1.5rem;
 }
 .main__div-div{
     display: flex;
@@ -88,8 +91,8 @@ main{
 }
 .main__div-p{
     text-align: center;
-    font-size: 18px;
-    margin: 15px;
+    font-size: 1.5rem;
+    margin: 0.93rem;
 }
 .main__div-p-a{
     color: rgb(78, 9, 4);
@@ -100,35 +103,120 @@ main{
     font-style: italic;
 }
 
-.main__div-img{
-display: block;
-margin-left: auto;
-margin-right: auto;
-width:1005px;
-}
-
-
 .main__div-iframe{
-    margin-top: 25px;
+    margin-top: 1.56rem;
     text-align: center;
 }
 
+.main__div-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:62.81rem;
+    }
+
+    .container-formulario h2{
+        color: rgb(78, 9, 4);
+        font-size: 2.5rem;
+        text-align: center;
+        margin-bottom: 4rem;
+    
+    }
+    
+    .container-formulario form{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+    
+    }
+    
+    form label{
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    form{
+        margin: auto;
+    }
+
+    form input, form select, form textarea {
+        border: 2px solid rgb(78, 9, 4);
+        border-radius: 0.4rem;
+        padding: 0.5rem;
+        margin-bottom: 1.5rem;
+    
+    }
+    
+    textarea{
+        height: 15vh;
+    }
+    
+    .botao{
+        text-align: center;
+    }
+    
+    .botao input{
+        background-color: rgb(78, 9, 4);
+        font-size: 2rem;
+        color: #ffffff;
+        padding: 1rem;
+    }
+      
 /* footer */
 footer{
-    margin-top: 280px; 
+    margin-top: 17.5rem; 
     color: white;
     background-color: rgb(48, 5, 5);
     text-align: center;
-    padding: 70px;
+    padding: 4.37rem;
     margin-bottom: 0;
     display: block;
     width: 100%;
-    font-size: 18px;
+    font-size: 1.12rem;
 }
 .footer__div-p-a{
-    color: rgb(240, 235, 235);
+    color: rgb(245, 216, 179);
 }
 .footer__div-p-a:hover {
     font-weight: bold;
     font-style: italic;
+}
+
+@media screen and (max-width:980px){
+    .container-formulario form{
+       width: 80%;
+    }  
+}
+
+@media screen and (max-width:700px){
+    .header__div{
+        flex-direction: column;
+    }
+
+    .header__img{
+        width: 22%;
+        margin-bottom: 2rem;
+
+    }
+
+    .body{
+        justify-content: center;
+        align-items: center;
+    }
+
+    html{
+        font-size: 8px;
+    }
+
+}
+
+@media screen and (max-width:530px){
+    .container-formulario form{
+       width: 90%;
+    }  
+
+    html{
+        font-size: 7px;
+    }
+
 }
