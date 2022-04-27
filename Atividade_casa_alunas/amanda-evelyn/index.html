@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty by Jllyn</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet"> 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Updock&display=swap" rel="stylesheet"> 
+
+</head>
+
+<body>
+    <header>
+    <div class="header__div-nav">
+        <nav class="header__nav">
+            <P class="header__nav-logo"> Beaty by Jllyn</P>
+            <a href="#" class="header__nav-a"> início </a>
+            <a href="#sobre" class="header__nav-a"> Sobre </a>
+            <a href="#servicos" class="header__nav-a"> Serviços </a>
+            <a href="agendamento" class="header__nav-a">Agendamento</a>
+            <a href="#contatos" class="header__nav-a"> Contatos </a>
+        </nav>
+    </div>
+
+    <div class="header__div">
+        <h1 class="header__h1">
+            Transforme seu olhar!
+        </h1>
+        <p class="header__p"> Venha descobrir um novo significado de beleza na Beauty by Jllyn </p>
+        <a class="header__a" href="#sobre"> Saiba mais! </a>
+    </div>
+    </header>
+
+    <main>
+        <div>
+            <h2 class="main__div-h2" id="sobre"> Olá, eu sou a Jullie Evelyn, é um prazer! </h2>
+            <div class="main__div-div">
+                <img src="./IMG/jullie pic.jpg" class="main__div-img"  alt="imagem da esteticista e dona Jullie Evelyn" />
+                <section class="main__section">
+                    <p class="main__section-p"> 
+                        Sou uma jovem empreendedora e esteticista que busca realçar o brilho das minhas clientes através do olhar.
+                        Com meu trabalho, Quero ajudar a florescer a autoestima de todas através de dedicação e cuidado.
+                        Atualmente, atendo na cidade de Fortaleza, em um espaço climatizado e pronto para receber você!
+                    </p>
+                </section>
+            </div>
+        </div>
+
+        <div class="main__div">
+            <h2 class="main__div-h2" id="servicos">Conheça meus serviços:</h2>
+            <div class="main__div-lista">
+                <section class="main__section">
+                    <h3 class="main__section-h3">Design de Sobrancelha e Epilação</h3>
+                    <ul class="main__section-ul">
+                        <li class="main__section-ul-li">Design Simples</li>
+                        <li class="main__section-ul-li">Design com Henna</li>
+                        <li class="main__section-ul-li"> Epilação de buço com cera</li>
+                        <li class="main__section-ul-li"> Epilação de buço com linha</li>
+                    </ul>
+                </section>
+
+
+                <section class="main__section">
+                    <h3 class="main__section-h3">Extensão de Cílios</h3>
+                
+                    <ul class="main__section-ul">
+                        <li class="main__section-ul-li">Volume Brasileiro</li>
+                        <li class="main__section-ul-li">Mega Volume</li>
+                        <li class="main__section-ul-li">Volume Express</li>
+                        <li class="main__section-ul-li">Volume Russo</li>
+                        <li class="main__section-ul-li">Volume 4D</li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+
+        <div class="main__div-form">
+          <h2 class="main__div-h2" id="agendamento">Agendamentos</h2>
+          <section class="container-formulario">
+            <form>
+              <label for="nome">Qual é o seu nome?</label>
+              <input type="text" name="nome" id="nome" placeholder="Digite seu nome aqui">
+
+              <label for="contato">Informe um telefone para contato:</label>
+              <input type="text" name="contato" id="contato" placeholder="Digite seu telefone aqui">
+
+              <label for="idade">Qual a sua idade?</label>
+              <input type="number" name="idade" id="idade" min="0" max="120" value="0">
+
+              <label for="servico1">Qual procedimento deseja realizar?</label>
+                <select name="servico1" id="servico1">
+                  <option value="simples">Design Simples</option>
+                  <option value="henna">Design com Henna</option>
+                  <option value="cera">Epilação de buço com cera</option>
+                  <option value="linha">Epilação de buço com linha</option>
+                  <option value="brasileiro">Volume Brasileiro</option>
+                  <option value="mega">Mega Volume</option>
+                  <option value="express">Volume Express</option>
+                  <option value="russo">Volume Russo</option>
+                  <option value="4d">Volume 4D</option>
+                </select>
+
+                <label for="servico2">Deseja realizar algum outro?</label>
+                <select name="servico2" id="servico2">
+                  <option value="nao">não</option>
+                  <option value="simples">Design Simples</option>
+                  <option value="henna">Design com Henna</option>
+                  <option value="cera">Epilação de buço com cera</option>
+                  <option value="linha">Epilação de buço com linha</option>
+                  <option value="brasileiro">Volume Brasileiro</option>
+                  <option value="mega">Mega Volume</option>
+                  <option value="express">Volume Express</option>
+                  <option value="russo">Volume Russo</option>
+                  <option value="4d">Volume 4D</option>
+                </select>
+
+                <label for="mais_informacoes">Observações:</label>
+                <textarea name="mais_informacoes" id="mais_informacoes"></textarea>
+
+                <div>
+                  <input type="checkbox" id="checked" checked > <label for="checked">Você confirma as informações acima?</label>
+                  </div>
+
+                  <div class="botao">
+                    <input type="submit" value="Enviar agendamento">
+                    </div>
+
+            </form>
+          </section>
+
+
+        </div>
+
+        <div class="main__div">
+            <h2 class="main__div-h2" id="contatos">Contatos</h2>
+            <div class="main__div-links">
+                <section class="main__section">
+                    <a class="main__section-links" href="https://www.instagram.com/" target="blank">
+                    <img class="icon" src="./IMG/instagram.png" alt="Instagram da Stetics Jllyn">
+                    <p class="main__section-links-p">@Beauty_jllyn</p>
+                    </a>
+                    <a class="main__section-links" href="https://web.whatsapp.com/" target="blank">
+                    <img class="icon" src="./IMG/whatsapp.png" alt="Whatsapp da Jullie">
+                    <p class="main__section-links-p">(85) 9xxxx-xxxx</p>
+                    </a>
+
+                    <a class="main__section-links" href="https://www.google.com.br/maps/place/R.+45+-+Vila+Velha,+Fortaleza+-+CE,+60348-330/@-3.7191075,-38.6034687,17z/data=!3m1!4b1!4m5!3m4!1s0x7c74a5cca528c77:0x5a7090d9236287da!8m2!3d-3.7191129!4d-38.60128"
+                    target="blank">
+                    <img class="icon" src="./IMG/local.png" alt="Localização do Studio">
+                    <p class="main__section-links-p">Rua xxxxxx, xx</p>
+                    </a>
+
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer__div">
+            <p class="footer__div-p">© 2022 by
+                <a href="https://amands.netlify.app/" target="_blank" class="footer__div-p-a">Amanda Evelyn</a> como 
+                atividade para <a href="https://reprograma.com.br/" target="blank" class="footer__div-p-a">{Reprograma}</a>.
+            </p>
+        </div>
+    </footer>
+            
+</body>
+</html>
