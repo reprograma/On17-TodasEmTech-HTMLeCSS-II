@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+body {
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  background-color: #f8f8f8;
+  color: #1b1b1b;
+}
+
+header {
+  display: flex;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f1f0ef;
+  height: 50px;
+}
+
+header div {
+  width: 33%;
+}
+
+a {
+  color: #1b1b1b;
+  text-decoration: none;
+}
+
+.nav {
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: larger;
+}
+
+.pagina-atual {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.logo {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Permanent Marker", cursive;
+  font-size: xx-large;
+}
+
+.social {
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.social a img {
+  height: 25px;
+}
+
+.content {
+  text-align: center;
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.imagem {
+  object-fit: cover;
+  width: 30vw;
+  height: 30vw;
+  border-radius: 15px;
+  margin: 5px;
+}
+
+.bio {
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 15px;
+}
+
+aside {
+  width: 30em;
+}
+
+.pfimg {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.content {
+  text-align: left;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: left;
+  text-transform: none;
+}
+
+.list {
+  min-width: 10em;
+  width: 50%;
+}
+
+ul {
+  margin-left: 1rem;
+}
+
+.likes-dislike {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.f-center {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+@media (max-width: 720px) {
+  .logo {
+    font-size: x-large;
+  }
+
+  aside {
+    width: 100%;
+  }
+
+  .bio {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 500px) {
+  .logo {
+    font-size: large;
+  }
+}
+
+@media (max-width: 380px) {
+  .social a img {
+    height: 12px;
+  }
+  .logo {
+    font-size: medium;
+  }
+}

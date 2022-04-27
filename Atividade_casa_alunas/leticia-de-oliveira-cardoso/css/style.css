@@ -1,0 +1,265 @@
+* { 
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+html, body {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background-color: grey;
+    min-height: 100vh;
+    font-size: 16px;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.104);
+    height: 10%;
+    width: 100%;
+    position: fixed;
+}
+
+nav {
+    display: flex;
+    margin-left: 70%;
+}
+
+    .nav_sobre {
+        padding: 1rem 1rem 0rem 0rem;
+    }
+
+    .nav_curriculo {
+        padding: 1rem 1rem 0rem 0rem;
+    }
+
+    .nav_portfolio {
+        padding: 1rem 1rem 0rem 0rem;
+    }
+    
+    .nav_contato {
+        padding: 1rem 1rem 0rem 0rem;
+    }
+
+
+    .main_home {
+        height: 100vh;
+        background-color: #9800df;
+        padding-left: 3rem;
+        padding-top: 3rem;
+    }
+
+    .main_intro {
+        height: 100vh;
+        background-color: #45006d;
+    }
+
+        .main_intro > h1 {
+            padding-top: 3rem;
+            padding-left: 3rem;
+            padding-bottom: 2rem;
+        }
+
+        .main_intro > h2, h3 {
+            padding-top: 1rem;
+            padding-right: 3rem;
+            padding-left: 3rem;
+        }
+
+    .main_about {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 100vh;
+        grid-area: "l r";
+    }
+
+        .main_about > .main_div-left {
+            grid-area: "l";
+            background-image: url(./img/perfil.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    
+            .main_about > .main_div-left > h1 {
+                padding-top: 29rem;
+                padding-left: 3rem;
+                color: #9800df;
+            }
+
+        .main_about > .main_div-right {
+            grid-area: "r";
+            padding-top: 3rem;
+            padding-left: 4rem;
+            padding-right: 3rem;
+            background-color: #e3e0d7;
+        }
+
+            .main_about > .main_div-right > ul {
+                display: grid;
+                grid-template-columns: 1;
+                grid-template-rows: 12vh 12vh 12vh 12vh;
+            }
+
+
+    .main_resume {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 100vh;
+        grid-area: "l r";
+    }
+
+        .main_resume > .main_div-left {
+            grid-area: "l";
+            background-color: #e3e0d7;
+            padding-top: 3rem;
+        }
+
+            .main_resume > .main_div-left > h1 {
+                color: #9800df;
+                padding-top: 16rem;
+                padding-left: 3rem;
+            }
+
+            .main_resume > .main_div-left > h2 {
+                padding-left: 3rem;
+                padding-right: 3rem;
+            }
+
+            .main_resume > .main_div-left > p {
+                padding-top: 3vh;
+                padding-left: 3rem;
+                padding-right: 3rem;
+            }
+
+        .main_resume > .main_div-right {
+            grid-area: "r";
+            background-color:  #9800df;
+            padding-top: 3rem;
+            padding-left: 3rem;
+            padding-right: 3rem;
+        }
+
+            .main_resume > .main_div-right > h4 {
+                padding-top: 3vh;
+            }
+
+            .main_resume > .main_div-right > p {
+                padding-left: 1rem;
+            }
+
+    .main_portfolio {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 100vh;
+        grid-area: "l r";
+    }
+
+        .main_portfolio > .main_div-left {
+            grid-area: "l";
+            background-color: #45006d;
+            padding-top: 3rem;
+            padding-left: 3rem;
+        }
+
+            .main_portfolio > .main_div-left > h1 {
+                padding-top: 2rem;
+            }
+
+            .main_div-portfolio-github {
+                width: 100%;
+                max-width: 55%;
+                height: auto;
+            }
+
+        .main_portfolio > .main_div-right {
+            grid-area: "r";
+            background-color: #45006d;
+            padding-top: 3rem;
+            padding-left: 3rem;
+        }
+
+            .main_portfolio > .main_div-right > p {
+                color: #9800df;
+                padding-top: 1.5rem;
+                padding-right: 3rem;
+        }
+
+            .main_div-portfolio-eserfn {
+                height: 100%;
+                max-height: 55%;
+                width: auto;
+            }
+
+    .main_contact {
+        height: 100vh;
+        background-color: #9800df;
+        padding-left: 3rem;
+        padding-top: 3rem;
+    }
+
+        .main_contact > h2 {
+            padding-bottom: 2rem;
+        }
+
+        .main_contact > h1 {
+            padding-top: 2.5rem;
+        }
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #e3e0d7;
+    height: 5vh;
+}
+
+    footer > h4 {
+        color: #45006d;
+    }
+
+
+h1 {
+    font-family: 'Ubuntu Mono', monospace;
+    font-weight: 100;
+    font-size: 4.5rem;
+    color: #e3e0d7;
+}
+
+h2 {
+    font-family: 'Ubuntu Mono', monospace;
+    font-weight: 100;
+    font-size: 2.2rem;
+}
+
+h3 {
+    font-family: 'Ubuntu Mono', monospace;
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-family: 'Ubuntu Mono', monospace;
+    font-weight: 100;
+    font-size: 1.2rem;
+    color: #d3fd2a
+}
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    color: #45006d;
+}
+
+ul {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    color: #45006d;
+}
+
+a {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: #45006d;
+}

@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+html{
+  font-size: 9px;
+  scroll-behavior: smooth;
+}
+
+main{
+  font-weight: bold;
+}
+
+
+.barra-navegacao{
+  background-image: url(../img/Constelação.png);
+  padding: 2rem;
+  background-size: cover;
+  display: flex;
+}
+
+.barra-navegacao>img{
+  width: 15%;
+  margin-right: 2rem;
+  min-width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.conteudo-principal,
+.container-personagens,
+.container-formulario{
+    padding: 4% 7%;
+}
+
+.destaque-info{
+  color: rgb(122, 139, 214);
+  font-weight: bolder;
+}
+
+p{
+  color: black;
+  font-size: 2rem;
+}
+
+h2{
+  text-align: center;
+  font-weight: bolder;
+}
+
+.conteudo-principal p{
+  margin-bottom: 1.5rem;
+  text-align: justify;
+}
+
+.titulo_personagens{
+  text-align: center;
+  padding: 2%;
+  font-size: 1.5rem;
+  background-color: rgb(36, 50, 114);
+}
+
+.container-personagens{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: justify;
+}
+
+.container-personagens__texto{
+  width: 50%;
+  min-width: 250px;
+}
+
+.container-personagens__texto>h2{
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+
+.container-personagens>img{
+  width: 5%;
+  min-width: 250px;
+  max-width: 600px;
+  max-height: 10%;
+}
+
+.row-reverse{
+  flex-direction: row-reverse;
+  background-color: rgb(122, 139, 214);
+}
+
+.background-personagem{
+  flex-direction: row;
+  background-color: rgb(36, 50, 114);
+}
+
+
+.container-formulario h2{
+  color: rgb(36, 50, 114);
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.container-formulario form{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+form label{
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+form input, form select, form textarea {
+  border: 2px solid rgb(122, 139, 214);
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+textarea{
+  height: 15vh;
+}
+
+.botao{
+  text-align: center;
+}
+
+form{
+  display: inline-block;
+  margin: auto;
+}
+
+.botao input{
+  background-color: rgb(36, 50, 114);
+  font-size: 2rem;
+  color: white;
+  padding: 1rem;
+  cursor:pointer;
+}
+
+.botao input:hover{
+  background-color: rgb(122, 139, 214);
+  transform: scale(1.1);
+  box-shadow: 0 0 10px 10px;
+}
+
+.rodape{
+  background-image: url(../img/Constelação.png);
+  padding: 2rem;
+}
+
+.rodape p{
+  color: #ffffff;
+  text-align: center;
+  background-size:auto;
+}
+
+.footer_div-p-a:hover{
+  font-weight: bolder;
+  color: gold;
+}
+
+@media screen and (max-widht: 980px){
+  .container-formulario form{
+      width: 80%; 
+  }
+}
+
+@media screen and (max-widht: 700px){
+  .container-personagens{
+      flex-direction: column;
+  }
+
+  .container-personagens__texto{
+      width: 100%;
+      margin-bottom: 3rem;
+  }
+
+  .container-personagens{
+      justify-content: center;
+      align-items: center;
+  }
+
+  .container-personagens>img{
+    align-items: center;
+    justify-content: center;
+  }
+
+  html{
+      font-size: 8px;
+  }
+}
+
+
+@media screen and (max-widht: 530px){
+  .container-formulario form{
+      width: 90%;
+  }
+
+  html{
+      font-size: 7px;
+  }
+}
