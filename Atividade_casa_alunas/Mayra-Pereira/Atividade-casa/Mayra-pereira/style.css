@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: 0;
+
+}
+html {
+    font-size: 10px;
+
+}
+body{
+    background: linear-gradient(#520a0a, #aa6b33);
+}
+.header-navegacao {
+    width: 100%;
+    padding-top: 30px;
+    text-align: center;
+
+}
+.header-navegacao>h1 {
+    font-size: 9rem;
+    color: #ffdd00;
+    padding: 2rem;
+    font-family: 'Bentham', serif;
+    text-shadow: 1px 1px black;
+    font-weight: bold;
+}
+.header-navegacao>h2{
+    font-size: 4rem;
+    color: #bf7515;
+
+}  
+.header-div-sub {
+    padding-top: 30px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.conteudo-pri>p {
+    color: #bf7515;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 18px;
+    text-shadow: 1px 1px black;
+}
+.conteudo-pri-texto-ul {
+    font-size: 20px;
+    padding-left: 48%;
+    padding-top: 20px;
+    padding-bottom: 8px;
+    color: #ffdd00;
+    text-shadow: 1px 1px black;
+    
+}
+.conteudo-div-sub{
+    font-size: 20px;
+    text-align: justify;
+    margin: 10px;
+    padding-bottom: 10px;
+    
+}
+.conteudo-div-sub01{
+    margin: 2%;
+    padding: 30px;
+    border-radius: 10%;
+    background-color: rgba(3, 3, 3, 0.549);
+    
+}
+
+.conteudo-div-sub > p{
+    padding-bottom: 1rem;
+
+}
+.conteudo-div-sub-a-img{
+    display: flex;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 20px;
+   
+}
+.elementos-a{
+    width: 130px;
+    height: 140px;
+
+}
+.div-elementos{
+    background-color: rgb(255, 255, 255);
+    margin: 5px;
+    border-radius: 50px;
+    padding: 5px;
+    
+}
+.div-elementos > p { 
+    padding: 5px;
+    margin: 10px;
+    text-align: justify;
+
+}
+.elementos-a1{
+    width: 130px;
+    height: 150px;
+}
+.conteudo-div-sub-img01{
+    background-image: url(./img/estilos-de-cervejas.jpg);
+    background-position: left center;
+    background-size: cover;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    padding: 2rem;
+    margin: 2rem;
+    color: white;
+    border-radius: 30px;
+    font-size: 2rem;
+    text-align: justify;
+
+}
+.footer-div-p-a {
+    background: #bf7515;
+    text-align: center;
+    padding: 10px;
+    color: #ffdd00;
+    font-size: 20px;
+}
+@media screen and (max-width:650px) {
+    .conteudo-div-sub-a-img{
+        font-size: 18px;
+        text-align: center;
+        display: contents;
+        
+    }
+    .conteudo-div-sub-img01{
+        font-size: 1.5rem;
+
+    }
+    .header-navegacao>h1{
+        font-size: 5rem;
+        margin: 10px;
+    }
+    .header-navegacao>h2{
+        font-size: 2rem;
+        margin: 15px;
+    }
+    .header-div-sub{
+        font-size: 15px;
+        margin: 10px;
+    }
+    .conteudo-pri>p{
+        font-size: 15px;
+        margin: 10px;
+    }
+    .conteudo-pri-texto-ul{
+        font-size: 15px;
+    }
+    .footer-div-p-a{
+        font-size: 10px;
+    }
+}

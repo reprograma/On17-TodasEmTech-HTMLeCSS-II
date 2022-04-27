@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Meus Sonhos </title>
+    </head>
+    <body>
+        <header class="barra-navegacao">
+            <img src="./img/viagem.png" alt="Imagem do globo terra" class="barra-navegacao__imagem">
+            <p>Meus próximos destinos</p>
+        </header>
+
+        <main>
+            <!--Primeira section-->
+
+            <section class="conteudo-principal">
+                <h1>Lugares que eu ainda vou conhecer</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ipsum reprehenderit fugit ipsa veritatis dolores quaerat? Saepe veniam perferendis quasi nemo magnam deleniti laboriosam porro autem, officiis voluptate. Omnis, officiis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure consequuntur omnis vero, pariatur deserunt adipisci. Veritatis quos id perferendis ipsa dolores vel quam molestiae neque sit, earum, temporibus distinctio quas!</p>
+                <p>Lorem um dolor sit amet consectetur adipisicing elit. Omnis adipisci aspernatur cupiditate dolor nesciunt accusantium, fugiat sit laboriosam, sed error quae ipsam! Culpa ipsa sunt quod suscipit laboriosam distinctio placeat. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto dolorum beatae dignissimos minus culpa consectetur quae eum, temporibus ea ab asperiores rem, illo distinctio fugit amet itaque eaque. Minima, illum.</p>
+            </section>
+
+            <!--Segunda section-->
+
+            <section class="segunda-section">
+                <div class="container-pais background-pais1">
+                    <div class="container-pais__texto">
+                        <h2>Paris</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis neque, vero porro natus nihil rerum vel aperiam alias, cupiditate sint nemo enim nostrum. Omnis, aliquam quas quis neque sint eum.</p>
+                    </div>
+                    <img src="./img/Paris.jpg" alt="Paris">
+                </div>
+                <div class="container-pais row-reverse">
+                    <div class="container-pais__texto">
+                        <h2>Maldivas</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis neque, vero porro natus nihil rerum vel aperiam alias, cupiditate sint nemo enim nostrum. Omnis, aliquam quas quis neque sint eum.</p>
+                    </div>
+                    <img src="./img/Maldivas.jpg" alt="Maldivas">
+                </div>
+            </section> 
+
+            <!--Terceira section-->
+
+            <section class="container-formulario">
+                <h2>Eiii!! Vamos conversar sobre sonhos?</h2>
+                <form>
+                    <label for="nome">Qual é o seu nome?</label>
+                    <input type="text" name="nome" id="nome" placeholder="Digite o seu nome aqui">
+                    
+                    <label for="email">Qual é o seu e-mail?</label>
+                    <input type="email" name="e-mail" id="email" placeholder="seunome@dominio.com">
+
+                    <label for="idade">Qual a sua idade?</label>
+                    <input type="number" name="idade" id="idade" min="0" max="120" value="0">
+
+                    <label for="comida">Qual a sua comida favorita?</label>
+                    <select name="comida" id="comida">
+                        <option value="Coxinha">Coxinha</option>
+                        <option value="Lasanha">Lasanha</option>
+                        <option value="Pizza">Pizza</option>
+                    </select>
+
+                    <div>
+                        <input type="checkbox" id="checked" checked >
+                        <label for="checked">Você sabe que é maravilhosa?</label>
+                    </div>
+
+                    <label for="mais_informacoes">Qual o seu maior sonho?</label>
+                    <textarea name="mais_informacoes" id="mais_informacoes"></textarea>
+
+                    <div class="botao">
+                        <input type="submit" value="Enviar formuário">
+                    </div>
+                    
+                </form>
+
+            </section>
+        </main>
+
+        <footer class="rodape">
+            <p>
+            Site desenvolvido por Juliane Andrade - Aula {Reprograma} | ©
+            Copyright 2021
+            </p>
+        </footer>
+    </body>
+</html>
+<--------------------------------------Código CSS------------------------------------------------------>
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+html{
+    font-size: 10px;
+}
+
+body{
+    background: linear-gradient(rgba(169, 153, 171, 0.2), rgba(110, 91, 108, 0.3));
+}
+
+.barra-navegacao{
+    background-color: rgb(82, 67, 95);
+    display: flex;
+    padding: 2rem;
+    align-items: center;
+}
+
+.barra-navegacao>img{
+    width: 5%;
+    margin-right: 2rem;
+    min-width: 60px;
+}
+
+.barra-navegacao>p{
+    font-size: 2.5rem;
+    color: #ffffff;
+}
+
+.conteudo-principal,
+.container-pais,
+.container-formulario{
+    padding: 4% 7%;
+}
+
+.conteudo-principal h1{
+    color: rgb(106, 59, 104);
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+p{
+    color: rgb(93, 85, 92);
+    font-size: 2rem;
+
+}
+
+.conteudo-principal p{
+    margin-bottom: 1.5rem;
+    text-align: justify;
+
+}
+
+.container-pais{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+}
+
+.background-pais1{
+    background-color: rgb(152, 136, 150);
+}
+
+.container-pais__texto{
+    width: 50%;
+    min-width: 250px;
+}
+
+.container-pais__texto>h2{
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+.container-pais>img{
+    width: 40%;
+    min-width: 250px;
+}
+
+.row-reverse{
+    flex-direction: row-reverse;
+    background-color: rgb(196, 183, 196);
+}
+
+.container-formulario h2{
+    color: rgb(106, 59, 104);
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 4rem;
+
+}
+
+.container-formulario form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+}
+
+form label{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+form input, form select, form textarea {
+    border: 2px solid rgb(106, 59, 104);
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin-bottom: 1.5rem;
+
+}
+
+textarea{
+    height: 15vh;
+}
+
+.botao{
+    text-align: center;
+}
+
+.botao input{
+    background-color: rgb(106, 59, 104);
+    font-size: 2rem;
+    color: #ffffff;
+    padding: 1rem;
+}
+
+.rodape{
+    background-color: rgb(88, 80, 87);
+    padding: 2rem;
+}
+
+.rodape p{
+    color: #ffffff;
+    text-align: center;
+}
+
+@media screen and (max-width:980px){
+    .container-formulario form{
+       width: 80%;
+    }  
+}
+
+@media screen and (max-width:700px){
+    .container-pais{
+        flex-direction: column;
+    }
+
+    .container-pais__texto{
+        width: 100%;
+        margin-bottom: 3rem;
+
+    }
+
+    .container-pais{
+        justify-content: center;
+        align-items: center;
+    }
+
+    html{
+        font-size: 8px;
+    }
+
+}
+
+@media screen and (max-width:530px){
+    .container-formulario form{
+       width: 90%;
+    }  
+
+    html{
+        font-size: 7px;
+    }
+
+}
+
