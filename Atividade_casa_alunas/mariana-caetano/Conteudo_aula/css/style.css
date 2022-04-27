@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    background: linear-gradient(rgba(169, 153, 171, 0.2), rgba(110, 91, 108, 0.3));
+}
+
+.barra-navegacao {
+    background-color: rgb(87, 67, 95);
+    display: flex; /* aqui o padrão é colocar em linhas*/
+    align-items: center;
+    padding: 2rem;
+}
+
+.barra-navegacao img { 
+    width: 5%;
+    margin-right: 2rem;
+    min-width: 60px;
+}
+
+.barra-navegacao p {
+    font-size: 2.5rem; /* 10px x 2.5rem = 25px. O 10 px vem do font-size do html*/
+    color: #fff;
+}
+
+.conteudo-principal,
+.container-pais,
+.container-formulario {
+    padding: 4% 7%;
+}
+
+.conteudo-principal h1 {
+    color: rgb(106, 59, 104);
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+p {
+    font-size: 2rem;
+    color: rgb(93, 85, 92);
+}
+.conteudo-principal p {
+    margin-bottom: 1.5rem;
+    text-align: justify;
+}
+
+.background-pais1 {
+    background-color: rgb(152, 136, 150);
+}
+
+.container-pais {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* quando não der mais para respeitar o conteúdo, ele sai de linha*/
+    min-width: 250px;
+}
+
+.container-pais img {
+    width: 40%;
+    min-width: 250px;
+}
+
+.container-pais__texto {
+    width: 50%;
+}
+
+.container-pais__texto h2 {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+    background-color: rgb(196, 183, 196);
+}
+
+.container-formulario h2 {
+    color: rgb(106, 59, 104);
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.container-formulario form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+form label {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+form input, form select, form textarea {
+    border: 2px solid rgb(106, 59, 104);
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin-bottom: 1.5rem;
+} 
+
+textarea {
+    height: 15vh;
+}
+
+.botao {
+    text-align: center;
+}
+
+form {
+    margin: auto;
+}
+
+.botao input {
+    background-color: rgb(106, 59, 104);
+    color: #fff;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.rodape {
+    background-color: rgb(88, 80, 87);
+    padding: 2rem;
+}
+
+.rodape p {
+    color: #fff;
+    text-align: center;
+}
+
+/* telas desktop + tenha a condição de max-width:980px*/
+@media screen and (max-width:980px) {
+    .container-formulario form {
+        width: 80%;
+    } 
+    
+} 
+
+@media screen and (max-width:700px){
+    .container-pais{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-pais__texto{
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    .container-pais{
+        justify-content: center;
+        align-items: center;
+    }
+
+    html {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width:530px) {
+    .container-formulario form {
+        width: 90%;
+    } 
+
+    hmtl {
+        font-size: 8px;
+    }
+    
+} 

@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  background-color: #F3F4FF;
+}
+
+header p {
+  color: #7871AA;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  color: #000;
+  font-size: 8rem;
+  text-align: center;
+  padding-bottom: 0.5rem;
+}
+
+nav {
+  background-color: #4E5283;
+  font-weight: 500;
+  margin-bottom: 5rem;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+
+nav ul li {
+  list-style-type: none;
+  margin: 0.5rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+nav ul li a:hover {
+  color:#D9BBF9;
+}
+
+#sobre {
+  margin: 5rem 5rem ;
+  display: flex;
+  align-items: center;
+}
+
+#sobre p {
+  font-size: 3rem;
+  text-align: center ;
+}
+
+.first-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 5rem;
+}
+
+.card {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 5px 5px 0 rgba(33,33,33,.2);
+}
+
+.card:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+}
+
+
+.card h3 {
+  font-size: 3rem;
+  color: #fff;
+}
+.card p {
+  font-size: 1rem;
+}
+
+.first-color {
+  background-color: #7871AA;
+  padding: 2rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.first-color p {
+  color: #cacefb;
+  font-size: small;
+}
+
+.first-blank {
+  padding: 2rem;
+}
+.fonte p { 
+  font-size: 0.9rem;
+}
+
+.fonte p a {
+  text-decoration: none;
+  color: #4E5283;
+}
+
+.fonte p a:hover {
+  text-decoration: none;
+  background-color: #4E5283;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.code {
+  background-color: #002240;
+  color: #fff;
+}
+
+.second-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 5rem;
+}
+
+#contribua {
+  padding: 5rem;
+}
+
+#contribua h2 {
+  color: #4E5283;
+  padding-bottom: 1rem;
+}
+
+#contribua ol {
+  padding-left: 2rem;
+  padding-top: 1rem;
+  line-height: 2rem;
+}
+
+#contribua ol li a{
+  text-decoration: none;
+  color:#7871AA;
+}
+
+#contribua ol li a:hover{
+  color:#002240;
+}
+
+footer {
+  background-color: #002240;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color:#cacefb;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color:#fff;
+  background-color: #7871AA;
+  transition: 0.5s;
+}
+
+@media screen and (max-width:900px) {
+  .text-header h1 {
+    font-size: 3rem;
+  }
+
+  nav ul{
+    display: block;
+    text-align: center;
+    padding: 0.7rem;
+  }
+  .text-header p {
+    font-size: 1.5rem;
+  }
+  .first-row {
+    display: block;
+    margin: 5rem;
+  }
+
+  .second-row {
+    display: block;
+    margin: 5rem;
+  }
+
+  .card {
+    margin-bottom: 5rem;
+  }
+
+  .first-color h3 {
+    font-size: 2rem;
+  }
+}
