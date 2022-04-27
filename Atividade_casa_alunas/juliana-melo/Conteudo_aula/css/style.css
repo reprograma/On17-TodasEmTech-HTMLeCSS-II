@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+.barra-navegacao {
+    background-image: linear-gradient(rgb(65, 92, 211), rgb(166, 197, 244), rgb(255, 255, 255)  );
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    padding-right:25px;
+    font-size: 1.5rem;
+}
+
+.barra-navegacao a:hover{
+    transition: all 0.8s;
+    background-color: yellow;
+    border-radius: 15px;
+    padding: 5px;
+
+}
+
+.barra-navegacao img {
+    width: 100px;
+    margin-right: 1rem;
+    min-width: 150px;
+}
+
+.barra-navegacao p{
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.conteudo-principal {
+   padding-top: 200px;
+   
+   
+}
+.conteudo-principal h1{
+    padding: 10px;
+}
+
+h1{
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+
+.row {
+  display:grid; 
+  gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  padding-left: 120px;
+  padding-right: 120px;
+  flex-wrap: wrap;
+}
+
+.livro{
+    max-width: 280px;
+    
+}
+
+.container-formulario h2{
+    color: rgb(0, 0, 0);
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.container-formulario{
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(166, 197, 244), rgb(65, 92, 211));
+}
+
+.container-formulario form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+  
+}
+
+form label{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+form input, form select, form textarea {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+textarea{
+    height: 15vh;
+}
+
+.botao{
+    text-align: center;
+}
+
+form{
+    display: inline-block;
+    margin: auto;
+}
+
+h2{
+    padding-top: 15px;
+}
+
+.botao input{
+    background-color: rgb(191, 188, 10);
+    font-size: 2rem;
+    color: #000000;
+    padding: 1rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.rodape{
+    background-color: rgb(65, 92, 210);
+    padding: 2rem;
+}
+
+.rodape p{
+    color: #000000;
+    text-align: center;
+    font-size: 1.3rem;
+}
+@media screen and (max-width:980px){
+    .container-formulario form{
+        width: 80%;
+    }
+    
+}
+
+@media screen and (max-width:700px){
+    .row{
+        flex-direction: column;
+    }
+    
+}
+@media screen and (max-width:550px){
+    .row{
+        width: 100%;
+    }
+    
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@1,300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Pega Pega Doces</title>
+    </head>
+
+    <body>
+        <header class="barra-navegacao">
+            <div class="logo" id="logo">
+                <img src="./img/logo.PNG" alt="imagem logo pega pega doces" class="logo" />
+            </div>
+
+            <nav class="menu" id="menu_nav"> 
+                <ul>
+                    <a href="#inicio" class="home">Home</a>
+                    <a href="#historia" class="nossa-historia">Nossa História</a>
+                    <a href="#sabores" class="sabores">Sabores</a>
+                    <a href="#orcamento" class="formulario">Orçamento</a>
+                </ul>
+            </nav>
+        </header>
+    
+        <main>
+            <Section class= "Home" id="inicio">
+                <p id="apresentacao">
+                    Quem um dia não teve a experiência de sentar-se à mesa, junto da família, e saborear uma bela fatia de bolo caseiro. Esses momentos mais gostosos ficam gravados em nossa memória e na correria do dia a dia se tornam cada vez mais raros. E é assim, que a Pega Pega Doces, com simplicidade e muito carinho, vem trazer de volta o prazer de saborear um delicioso Bolo Caseiro.
+                
+                    <img src="./img/boleira2.png" alt="imagem boleiras" class="boleira"/>
+                </p>
+            </Section>
+
+            <Section class= "nossa-historia" id="historia">
+                <p id="resumo">
+                    Neste vídeo compartilhamos nossa trajétoria, agradeçemos pela confiança e preferência. 
+                </p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/-jNN9bSEPt0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video"></iframe>
+            </Section>
+    
+            <section class= "sabores" id="sabores">
+                <div class="bolos-caseiros">
+                    <h2>Bolos Caseiros</h2> 
+                    <img src="./img/Milho.png" alt="bolo sabor milho">
+                    <img src="./img/abacaxi.png" alt="bolo sabor abacaxi">
+                    <img src="./img/Maracuja.png" alt="bolo sabor maracuja">
+                    <img src="./img/Fuba.png" alt="bolo sabor fubá">
+                </div>
+
+                <div class= "bolos-festa">
+                    <h2>Bolos Festa</h2>
+                    <img src="./img/chocolateemorango.png" alt="Sabor Chocolate e Morango">
+                    <img src="./img/cremedeavela.png" alt="Sabor Creme de Avelã">
+                    <img src="./img/nozesedamasco.png" alt="Sabor Nozes e Damasco">
+                    <img src="./img/alpino.png" alt="Sabor Alpino">
+                </div>
+
+                <div class= "doces">
+                    <h2>Doces</h2>
+                    <img src="./img/brigadeiro-1.png" alt="Brigadeiro">
+                    <img src="./img/bicho_de_pe.png" alt="Bicho de pé">
+                    <img src="./img/brigadeiro_de_churros-1.png" alt="Brigadeiro de Churros">
+                    <img src="./img/beijinho.png" alt="Beijinho">
+                </div>
+
+            </section>
+
+        
+            <section class="formulario" id="orcamento">
+                <h2> Solicite seu Orçamento</h2>
+                <form>
+                    <label for="nome">Nome Completo</label>
+                    <input type="text" name="nome" id="nome" placeholder="Digite o seu nome aqui">
+                    
+                    <label for="email">E-mail</label>
+                    <input type="email" name="e-mail" id="email" placeholder="seunome@dominio.com">
+        
+                    <label for="evento">Tipo de Evento</label>
+                    <select name="comida" id="eventos">
+                        <option value="infantil">Festa Infantil</option>
+                        <option value="casamento">Casamento</option>
+                        <option value="coffeebreak">Café da Manhã Corporativo</option>
+                        <option value="aniversarios">Anivérsario</option>
+                    </select>
+
+                    <label for="idade">Quantidade de Pessoas</label>
+                    <input type="number" name="idade" id="idade" min="0" max="20000" value="20">
+
+                    <div>
+                        <input type="checkbox" id="checked" checked >
+                        <label for="checked">Aceita receber informativos com promoções?</label>
+                    </div>
+
+                    <label for="mais_informacoes">Dúvidas/Sugestões:</label>
+                    <textarea name="mais_informacoes" id="mais_informacoes" placeholder="Digite aqui"></textarea>
+
+                    <div class="botao">
+                        <input type="submit" value="Enviar formuário">
+                    </div>
+
+                    <footer class="rodape">
+                        <p>
+                        Site desenvolvido por Larissa Santana - Aluna {Reprograma} | ©Copyright 2022
+                        </p>
+                    </footer>
+                    
+                </form>
+
+        </main>
+
+    
+    </body>
+</html>
