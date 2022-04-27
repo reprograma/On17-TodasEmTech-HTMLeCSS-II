@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+body {
+    background-image: url(imgs/100\ Wallpapers\ de\ Gatinhos\ Fofos\ para\ Você\ Baixar\ e\ Compartilhar.jpg)
+}
+
+.cabecalho {
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    min-width: 250px;
+
+}
+
+.cabecalho>img{
+    width: 5%;
+    margin-left: 10rem;
+    min-width: 60px;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+.cabecalho>p{
+    font-size: 3.5rem;
+    color:#785baf;
+    font-weight: bold;
+    margin-left:3rem;
+}
+
+.banner-site {
+    background-image: url(imgs/istockphoto-976196706-170667a.jpg);
+    background-size: 100% 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-width: 250px;
+}
+
+.subtitulo-site {
+    color: rgb(155, 18, 189);
+    margin-top: 320px;
+    font-size: 2rem;
+    align-items: center;
+    flex-wrap: wrap;
+    min-width: 250px;
+}
+
+.quero-doar{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    text-align: center;
+    flex-wrap: wrap;
+    min-width: 250px;
+}
+
+.ancora-quero-doar {
+    background-color: rgb(220, 187, 226);
+    border: 2px solid #aad8e0;
+    text-decoration: none;
+    padding:  10px;
+    border-radius: 500px;
+    text-transform: uppercase;
+    color: #f30a9a;
+    font-weight: bold;
+    font-size: 2rem;
+    align-content: center;
+    flex-wrap: wrap;
+    min-width: 250px;
+
+}
+
+.ancora-conheca-a-ong {
+    background-color: rgb(220, 187, 226);
+    border: 2px solid #aad8e0;
+    text-decoration: none;
+    padding:  10px;
+    border-radius: 500px;
+    text-transform: uppercase;
+    color: #f30a9a;
+    font-weight: bold;
+    font-size: 2rem;
+    flex-wrap: wrap;
+    min-width: 250px;
+}
+
+.titulo-porque-adotar{
+    color: rgb(106, 59, 104);
+    margin-top: 200px;
+    font-weight: bold;
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    flex-wrap: wrap;
+    min-width: 250px;
+}
+
+
+.section-sobre-gatinhos {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 50px 30px 50px;
+    flex-wrap: wrap;
+    min-width: 250px;
+}
+
+.div-lado-esquerdo {
+    margin-right: 50px;
+    width:65%
+}
+
+.porque-adotar-um-gatinho {
+    color: #791186;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    text-align: justify
+
+
+}
+
+.gif-gatinho-fofo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+.dicas-sobre-gatos {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 50px 30px 50px;
+}
+
+
+.titulo-porque-adotar {
+    color: #785baf;
+    font-size: 5rem;
+    font-weight: bold;
+    padding: 0 50px;
+    margin-top: 60px;
+}
+
+.titulo-vantagens {
+    color: #785baf;
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.ancora-adote-um-gato {
+    background-color: #f3c2d3;
+    color: rgb(7, 203, 252);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 6px 20px;
+    border-radius: 20px;
+}
+
+.div-pq-adotar{
+    color: #f3109c;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 15rem;
+}
+
+.container-formulario h2{
+    color: rgb(106, 59, 104);
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 4rem;
+
+}
+
+.container-formulario form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+form label{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+form input, form select, form textarea {
+    border: 2px solid rgb(106, 59, 104);
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin-bottom: 1.5rem;
+
+}
+
+textarea{
+    height: 15vh;
+}
+
+.botao{
+    text-align: center;
+}
+
+.botao input{
+    background-color: rgb(106, 59, 104);
+    font-size: 1.5rem;
+    color: #ffffff;
+    padding: 1rem;
+}
+
+.botao :hover{
+    opacity: 0.8;
+}
+
+.rodape{
+    background-color: rgb(88, 80, 87);
+    padding: 2rem;
+}
+
+.rodape p{
+    color: #ffffff;
+    text-align: center;
+}
+
+.louca-dos-gatos{
+    color: #785baf;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 0 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.section-redes-sociais {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.card-redes-sociais {
+    background-color: rgb(106, 59, 104);
+    width: 150px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;   
+
+}
+
+.card-redes-sociais:hover {
+    opacity: 0.8;
+}
+
+.nome-rede-social {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.nome-usuario-rede-social {
+    font-size: 15px;
+}
+
+.destaque-nome {
+    color: #791186;
+    font-weight: bold;
+}
+
+.icone-rede-social {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+#icon-fb{
+    width:30px;
+}
+
+.rodape{
+    background-color: rgb(88, 80, 87);
+    padding: 2rem;
+    font-size: 1.5rem;
+}
+
+    @media screen and (max-width:500px){
+        .container-formulario form{
+           width: 80%;
+    }
+
+}
