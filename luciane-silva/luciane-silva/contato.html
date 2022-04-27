@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contato - BOOKSTAR-WARS</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+</head>
+
+<!--CABEÇALHO-->
+
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">BOOKSTAR-WARS</h2>
+            <nav>
+                <ul class="lista-menu">
+                    <li class="item-lista">
+                        <a href="index.html">Inicio</a>
+                    </li>
+                    <li class="item-lista">
+                        <a href="#">Autores</a>
+                    </li>
+                    <li class="item-lista">
+                        <a href="#">Gêneros</a>
+                    </li>
+                    <li class="item-lista">
+                        <a href="#">Linha do Tempo</a>
+                    </li>
+                </ul>
+
+            </nav>
+        </div>
+    </header>
+
+    <!-- FORMULÁRIO-->
+    <main>
+        
+        <form>
+            <label for="nomesobrenome">Nome</label>
+            <input type="text" id="nomesobrenome" class="input-padrao" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+            <label for="mais_informacoes">Qual o seu livro favorito?</label>
+            <textarea name="mais_informacoes" id="mais_informacoes" class="input-padrao"></textarea>
+
+            <label for="mais_informacoes">Qual livro você está lendo no momento?</label>
+            <textarea name="mais_informacoes" id="mais_informacoes" class="input-padrao"></textarea>
+
+            <label for="mais_informacoes"> Qual próximo livro que você irá ver?</label>
+            <textarea name="mais_informacoes" id="mais_informacoes" class="input-padrao"></textarea>
+
+            <label for="mensagem">Mensagem</label>
+            <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+            <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por
+                email? </label>
+
+            <input type="submit" value="Enviar formulário" class="enviar">
+        </form>
+    </main>
+
+    <!--RODAPÉ-->
+        <footer>
+            <div class="footer__div">
+                <p class="footer__div-p">Desenvolvido pela aluna Luciane da
+                    <a href="https://reprograma.com.br/" target="_blank" class="footer__div-p-a">{reprograma}</a>
+                </p>
+            </div>
+        </footer>
+</body>
+
+</html>

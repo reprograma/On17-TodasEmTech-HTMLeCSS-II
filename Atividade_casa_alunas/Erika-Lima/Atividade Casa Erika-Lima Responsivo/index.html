@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/style.css">
+        <title>Dra. Pet - Erika Feijó</title>
+    </head>
+    <body>
+        <header class="barra-navegacao">
+            <img src="./imagens/patinha.jpg"Imagem do globo terra" class="barra-navegacao__imagem">
+            <p>Dra. Pet - Erika Feijó</p>
+        </header>
+
+        <main>
+            <!--Primeira section-->
+
+            <section class="conteudo-principal">
+                <h1>Atendimento em Domicílio</h1>
+                <p>Tratamento humanizado. Saúde para seu pet. Cuidado e carinho para seu animal. Atendimento exclusivo e humanizado com preço justo.</p>
+                <p>Te ajudo a promover SAÚDE para o seu PET no conforto do seu LAR!</p>
+            </section>
+
+            <!--Segunda section-->
+
+            <section class="segunda-section">
+                <div class="container-pais background-pais1">
+                    <div class="container-pais__texto">
+                        <h2>Atendimento Personalizado</h2>
+                        <p>Os cuidados com os animais devem ser constantes, e quem tem um amigo de quatro patas sabe o quão importante é a manutenção da saúde dos pets.</p>
+                        <p>Além da praticidade de poder dar os cuidados mais básicos ao seu pet, o atendimento veterinário em domicílio também pode ser útil em outros casos, ajudando a solucionar problemas diversos que preocupam quem tem um amigo de quatro patas como parte da família.</p>                       
+                    </div>
+                    <img src="./imagens/folder serviços.jpeg" alt="folder serviços">
+                </div>
+                <div class="container-pais row-reverse">
+                    <div class="container-pais__texto">
+                        <h2>Sem Tempo pra Levar seu Pet para passear ou ao Vetrinário ?! Conte Comigo!</h2>
+                        <p>Para os tutores que não têm tanto tempo de passear com o cão, o Dog walker pode ser uma opção. Confira o que é e como funciona esse serviço!.</p>
+                    </div>
+                    <img src="./imagens/pet sitter.jpeg" alt="folder pet sitter">
+                </div>
+            </section> 
+
+            <!--Terceira section-->
+
+            <section class="container-formulario">
+                <h2>Maiores Informações!</h2>
+                <form>
+                    <label for="nome">Qual é o seu nome?</label>
+                    <input type="text" name="nome" id="nome" placeholder="Digite o seu nome aqui">
+                    
+                    <label for="email">Qual é o seu e-mail?</label>
+                    <input type="email" name="e-mail" id="email" placeholder="seunome@dominio.com">
+
+                    <label for="idade">Quantidade de Pets?</label>
+                    <input type="number" name="idade" id="idade" min="0" max="120" value="0">
+
+                    <label for="tipo">Qual é o seu Pet?</label>
+                    <select name="espécie" id="espécie">
+                        <option value="Cachorro">cachorro</option>
+                        <option value="Gato">gato</option>
+                        <option value="Não Convencional">não convencional</option>
+                    </select>
+
+                    <div>
+                        <input type="checkbox" id="checked" checked >
+                        <label for="checked">Ficou com mais alguma dúvida?</label>
+                    </div>
+
+                    <label for="mais_informacoes">Escreva aqui!</label>
+                    <textarea name="mais_informacoes" id="mais_informacoes"></textarea>
+
+                    <div class="botao">
+                        <input type="submit" value="Enviar formuário">
+                    </div>
+                    
+                </form>
+
+            </section>
+        </main>
+
+        <footer class="rodape">
+            <p>
+            Site desenvolvido por Erika Lima - Aula {Reprograma} | ©
+            Copyright 2022
+            </p>
+        </footer>
+    </body>
+</html>

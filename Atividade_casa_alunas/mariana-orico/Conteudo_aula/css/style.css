@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    background: linear-gradient(rgba(169, 153, 171, 0.2), rgba(110, 91, 108, 0.3));
+}
+
+.barra-navegacao{
+    background-color: #826795;
+    display: flex;
+    padding: 2rem;
+    align-items: center;
+}
+
+.barra-navegacao>img{
+    width: 5%;
+    margin-right: 2rem;
+    min-width: 60px;
+}
+
+.barra-navegacao>p{
+    font-size: 2.5rem;
+    color: white;
+}
+
+.conteudo-principal,
+.container-pais, .container-formulario{
+    padding: 4% 7%;
+}
+
+.conteudo-principal>h1{
+    color: #826795;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+p{
+    color: rgb(93, 85, 92);
+    font-size: 2rem;
+}
+
+.conteudo-principal p{
+    margin-bottom: 1.5rem;
+    text-align: justify;
+}
+
+.container-pais{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.background-pais1{
+    background-color: rgb(152, 136, 150);
+}
+
+.container-pais__texto{
+    width: 50%;
+    min-width: 250px;
+}
+
+.container-pais__texto>h2{
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+.container-pais>img{
+    width: 40%;
+    min-width: 250px;
+}
+
+.row-reverse{
+    flex-direction: row-reverse;
+    background-color: rgb(196, 183, 196);
+}
+
+.container-formulario h2{
+    color: #826795;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.container-formulario form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+form label{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+form input, form select, form textarea {
+    border: 2px solid rgb(106, 59, 104);
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+textarea{
+    height: 15vh;
+}
+
+.botao{
+    text-align: center;
+}
+
+form{
+    margin: auto;
+}
+
+.botao input{
+    background-color: rgb(106, 59, 104);
+    font-size: 2rem;
+    color: white;
+    padding: 1rem;
+}
+
+.rodape{
+    background-color: rgb(88, 80, 87);
+    padding: 2rem;
+}
+
+.rodape p{
+    color: white;
+    text-align: center;
+
+}
+
+@media screen and (max-width:980px){
+    .container-formulario form{
+       width: 80%;
+    }  
+}
+
+@media screen and (max-width:700px){
+    .container-pais{
+        flex-direction: column;
+    }
+
+    .container-pais__texto{
+        width: 100%;
+        margin-bottom: 3rem;
+
+    }
+
+    .container-pais{
+        justify-content: center;
+        align-items: center;
+    }
+
+    html{
+        font-size: 8px;
+    }
+
+}
+
+@media screen and (max-width:530px){
+    .container-formulario form{
+       width: 90%;
+    }  
+
+    html{
+        font-size: 7px;
+    }
+}
