@@ -1,0 +1,252 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+html{
+    font-size: 100%;
+}
+
+body{
+    font-size: 1.6rem;
+}
+.header_nav_div_cabecalho{
+   width: 90%;
+    display: flex;
+   padding: 5%;
+   flex-direction: fixed;
+   justify-content: space-between;
+   padding-top: 3%;
+   background-color: rgb(201, 166, 201);
+   
+   
+    
+}
+
+.header_nav_div_cabecalho_1,
+.header_nav_div_cabecalho_2,
+.header_nav_div_cabecalho_3,
+.header_nav_div_cabecalho_4,
+.header_nav_div_cabecalho_5{
+    color: rgb(49, 4, 49);
+    font-family: 'Courgette', cursive;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+
+.main_section_1{
+    padding-left: 20%;
+    text-align: center;
+    
+    
+}
+
+.section_div_1{
+    padding-top: 5%;
+    padding-left: auto;
+    padding-right: 20%;
+    padding-bottom: 5%;
+    font-family: 'Courgette', cursive;
+    font-size: 10.30rem;
+    font-family: 'Square Peg', cursive;
+    text-align: center;
+}
+
+
+.section_div_2{
+    display: flex;
+    flex-direction: row-reverse;
+    border: 0.1%;
+    background-image: url(./img/fundo\ 4\ .png);
+    max-width: 900px;
+    text-align: center;
+        
+}
+
+.section_div_2_p{
+    width: 50%;
+    padding-right: 5%;
+    padding-left: 20%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 1.9rem;
+    font-family: 'Courgette', cursive;
+    display: flex;
+    flex-direction: column;
+    
+   }
+
+   .section_div_2_p2{
+       padding-top: 5.5%;
+       text-align: center;
+   }
+
+   .section_div_2_img{
+        padding-right: 1%;
+        text-align: center;
+        width: 50%;
+        background-position: center;
+       
+   }
+.section_2_p,
+.section_3_p {
+    font-size: 1.50rem;
+    padding-top: 2.5%;
+    text-align: center;
+       
+}
+
+
+.section_4_p{
+    padding-bottom: 2.5%;
+    font-size: 1.5rem;
+}
+.section_2_ul{
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 3%;
+    
+}
+
+
+
+p{
+    text-align: center;
+}
+
+.section_2{
+    padding-bottom: 13%;
+}
+.section_3{
+    
+    background-color: rgb(201, 166, 201);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 13%;
+    
+}
+
+.section_4{
+    
+    padding-bottom: 13%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    
+}
+
+
+.section_4_img{
+    size: 10%;
+}
+.section_5{
+    padding-bottom: 13%;
+    background-color: rgb(223, 194, 194);
+}
+.section_2 p{
+    text-align: center;
+    
+}
+
+.section_5{
+    text-align: center;
+    
+}
+
+.section_2 h2,
+.section_3 h2,
+.section_4 h2,
+.section_5 h2{
+    text-align: center;
+    padding-top: 1.5%;
+    padding-bottom: 2.5%;
+    font-family: 'Courgette', cursive;
+    font-size: 2.5rem;
+    
+}
+
+.link_github{
+    font-size: 1.5rem;
+}
+.section_5_link{
+    font-size: 1.5rem;
+    
+}
+.footer_div{
+    text-align: center;
+    padding-top: 50px;
+    background-color: rgb(221, 216, 216);
+    background-size: 1px;
+    font-family: 'Courgette', cursive;
+    font-size: 1.3rem;
+    padding-bottom: 3%;
+}
+
+@media screen and (max-width:540px) {
+    .header_nav_div_cabecalho{
+        font-size: 10%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .section_div_1{
+        font-size: 250%;
+    }
+
+    .section_div_2{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .section_div_2_p{
+        font-size: 50%;
+    }
+
+    .section_2 h2,
+    .section_3 h2,
+    .section_4 h2,
+    .section_5 h2{
+        font-size: 90%;
+    }
+
+    .section_2_p,
+    .section_3_p,
+    .section_4_p{
+        font-size: 50%;
+        padding: 1%;
+    }
+
+    .section_2_ul{
+        font-size: 50%;
+        padding: 1%;
+    }
+    .section_4_img{
+        background-size: 10%;
+    }
+   
+    
+    .link_github{
+        font-size: 50%;
+    }
+
+    .section_5_link{
+        font-size: 50%;
+    }
+
+    .section_5 img{
+        height: 7rem;
+    }
+
+    .footer_div{
+        font-size: 40%;
+        padding: 1%;
+    }
+}
