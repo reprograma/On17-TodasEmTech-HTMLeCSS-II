@@ -190,18 +190,84 @@ li {
   list-style: none;
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 768px) {
   .div_container {
     flex-direction: column;
   }
+  .aside_left {
+    order: 2;
+    flex: 0.5;
+  }
 
- 
+  .h1_aside_right, .h2_aside_right{
+    font-size: 1.5rem;
+  }
+
+  .icone_twitter_aside_left {
+    width: 240px;
+  }
+
+  .aside_right {
+    order: 1;
+    align-items: center;
+  }
+
+  .button_register,
+  .button_register_cellphone,
+  .button_login {
+    width: 70vw;
+  }
+
+  hr{
+    width:40vw;
+  }
+
+  .button_register_cellphone p{
+    font-size:14px;
+  }
+
+  .agreement_text_container {
+    width: 70vw;
+  }
+
+  .ul_footer {
+    width: 90vw;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-  .container {
-    max-width: 656px;
+  .div_container {
+    flex-direction: column;
+  }
+  .aside_left {
+    order: 2;
+    flex: 0.5;
   }
 
- 
+  .icone_twitter_aside_left {
+    width: 240px;
+  }
+
+  .aside_right {
+    order: 1;
+    align-items: center;
+  }
+
+  .button_register,
+  .button_register_cellphone,
+  .button_login {
+    width: 40vw;
+  }
+
+  .agreement_text_container {
+    width: 40vw;
+  }
+
+  .ul_footer {
+    width: 90vw;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
 }
